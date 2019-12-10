@@ -1,0 +1,685 @@
+@media screen and (max-width:1200px){
+   #hello .hello .food1 .new .img, #hello .hello .food1 .fresh .img, #hello .hello .food1 .creative .img {
+      width: 290px;
+    }
+    #hello .hello .food4 .chef1 .img, #hello .hello .food4 .chef2 .img, #hello .hello .food4 .chef3 .img, #hello .hello .food4 .chef4 .img{
+      width: 203px;
+    }
+    #hello .hello .food2 .bread .img {
+      margin-left: 250px;
+    }
+    #hello .hello .gallery ul{
+      margin-left: 189px;
+    }
+   #specials .vaxtlar .vaxt{
+      left: 7px;
+    }
+    #specials .circle1{
+      left: 458px;
+    }
+    #specials .circle2{
+      left: 458px;
+    }
+    #specials .text h4{
+      margin-left: 364px;
+      }
+      #specials .text h3{
+       margin-left: 223px;
+      }
+
+      #tastymeals .tastegallery .gallery{
+        margin-left: 216px;
+      }      
+      #meals .meal1, #meals .meal2, #meals .meal3, #meals .meal4{
+        width: 600px;
+        height: 600px;
+      } 
+      .discovera a{
+        margin-left: -185px;
+      }
+      #backgroundslider .slaytlar .slayt1 .imgperson, #backgroundslider .slaytlar .slayt2 .imgperson, #backgroundslider .slaytlar .slayt3 .imgperson, #backgroundslider .slaytlar .slayt4 .imgperson{
+        margin-left: 74px;
+      }
+      #backgroundslider .bottom{
+        display: none;
+      }
+      #backgroundslider .top{
+        display: none;
+      }
+      #finish .reservation .reserv .reservbot{
+        display: none;
+      }
+      #finish .reservation .reserv .reservtop{
+        display: none;
+      }
+      #finish .reservation .reserv{
+        top: -66px;
+        left: 427px;
+        width: 294px;        
+      }
+      #finish .baybay .bay .baytop{
+        display: none;
+      }
+      #allmenu .imgallmenu{
+        margin-left: -34px;
+      }       
+      header .page .pagebackground .pagetop{
+        left: 452px;
+      }      
+      .loada a{
+        margin-left: -198px;
+      }
+      #creamy .bal{
+        margin-left: 56px;
+      }
+      #meals .meal1 .fillet .metn, #meals .meal2 .fillet .metn, #meals .meal3 .fillet .metn, #meals .meal4 .fillet .metn, #meals .meal1 .fillet .filletimg, #meals .meal1 .fillet .filletimg2, #meals .meal1 .fillet .filletimg3, #meals .meal1 .fillet .filletimg4, #meals .meal2 .fillet .filletimg, #meals .meal2 .fillet .filletimg2, #meals .meal2 .fillet .filletimg3, #meals .meal2 .fillet .filletimg4, #meals .meal3 .fillet .filletimg, #meals .meal3 .fillet .filletimg2, #meals .meal3 .fillet .filletimg3, #meals .meal3 .fillet .filletimg4, #meals .meal4 .fillet .filletimg, #meals .meal4 .fillet .filletimg2, #meals .meal4 .fillet .filletimg3, #meals .meal4 .fillet .filletimg4, 
+      #meals .meal1 .paella .paellaimg, #meals .meal1 .paella .paellaimg2, #meals .meal1 .paella .paellaimg3, #meals .meal1 .paella .paellaimg4, #meals .meal2 .paella .paellaimg, #meals .meal2 .paella .paellaimg2, #meals .meal2 .paella .paellaimg3, #meals .meal2 .paella .paellaimg4, #meals .meal3 .paella .paellaimg, #meals .meal3 .paella .paellaimg2, #meals .meal3 .paella .paellaimg3, #meals .meal3 .paella .paellaimg4, #meals .meal4 .paella .paellaimg, #meals .meal4 .paella .paellaimg2, #meals .meal4 .paella .paellaimg3, #meals .meal4 .paella .paellaimg4, #meals .meal1 .paella .metn1, #meals .meal2 .paella .metn1, #meals .meal3 .paella .metn1, #meals .meal4 .paella .metn1, 
+      #meals .meal1 .breast .metn, #meals .meal2 .breast .metn, #meals .meal3 .breast .metn, #meals .meal4 .breast .metn, #meals .meal1 .breast .breastimg, #meals .meal1 .breast .breastimg2, #meals .meal1 .breast .breastimg3, #meals .meal1 .breast .breastimg4, #meals .meal2 .breast .breastimg, #meals .meal2 .breast .breastimg2, #meals .meal2 .breast .breastimg3, #meals .meal2 .breast .breastimg4, #meals .meal3 .breast .breastimg, #meals .meal3 .breast .breastimg2, #meals .meal3 .breast .breastimg3, #meals .meal3 .breast .breastimg4, #meals .meal4 .breast .breastimg, #meals .meal4 .breast .breastimg2, #meals .meal4 .breast .breastimg3, #meals .meal4 .breast .breastimg4,
+      #meals .meal1 .sea .metn, #meals .meal2 .sea .metn, #meals .meal3 .sea .metn, #meals .meal4 .sea .metn,
+      #meals .meal1 .sea .seaimg, #meals .meal1 .sea .seaimg2, #meals .meal1 .sea .seaimg3, #meals .meal1 .sea .seaimg4, #meals .meal2 .sea .seaimg, #meals .meal2 .sea .seaimg2, #meals .meal2 .sea .seaimg3, #meals .meal2 .sea .seaimg4, #meals .meal3 .sea .seaimg, #meals .meal3 .sea .seaimg2, #meals .meal3 .sea .seaimg3, #meals .meal3 .sea .seaimg4, #meals .meal4 .sea .seaimg, #meals .meal4 .sea .seaimg2, #meals .meal4 .sea .seaimg3, #meals .meal4 .sea .seaimg4,
+      #meals .meal1 .paprika .paprikaimg, #meals .meal1 .paprika .paprikaimg2, #meals .meal1 .paprika .paprikaimg3, #meals .meal1 .paprika .paprikaimg4, #meals .meal2 .paprika .paprikaimg, #meals .meal2 .paprika .paprikaimg2, #meals .meal2 .paprika .paprikaimg3, #meals .meal2 .paprika .paprikaimg4, #meals .meal3 .paprika .paprikaimg, #meals .meal3 .paprika .paprikaimg2, #meals .meal3 .paprika .paprikaimg3, #meals .meal3 .paprika .paprikaimg4, #meals .meal4 .paprika .paprikaimg, #meals .meal4 .paprika .paprikaimg2, #meals .meal4 .paprika .paprikaimg3, #meals .meal4 .paprika .paprikaimg4,
+      #meals .meal1 .paprika .metn1, #meals .meal2 .paprika .metn1, #meals .meal3 .paprika .metn1, #meals .meal4 .paprika .metn1,
+      #meals .meal1 .steak .metn, #meals .meal2 .steak .metn, #meals .meal3 .steak .metn, #meals .meal4 .steak .metn,
+      #meals .meal1 .steak .steakimg, #meals .meal1 .steak .steakimg2, #meals .meal1 .steak .steakimg3, #meals .meal1 .steak .steakimg4, #meals .meal2 .steak .steakimg, #meals .meal2 .steak .steakimg2, #meals .meal2 .steak .steakimg3, #meals .meal2 .steak .steakimg4, #meals .meal3 .steak .steakimg, #meals .meal3 .steak .steakimg2, #meals .meal3 .steak .steakimg3, #meals .meal3 .steak .steakimg4, #meals .meal4 .steak .steakimg, #meals .meal4 .steak .steakimg2, #meals .meal4 .steak .steakimg3, #meals .meal4 .steak .steakimg4{
+        height: 299px;
+        width: 201px;
+        margin-left: 91px;
+      }
+      #meals .meal1 .fillet .metn p, #meals .meal2 .fillet .metn p, #meals .meal3 .fillet .metn p, #meals .meal4 .fillet .metn p,
+      #meals .meal1 .paella .metn1 p, #meals .meal2 .paella .metn1 p, #meals .meal3 .paella .metn1 p, #meals .meal4 .paella .metn1 p, 
+      #meals .meal1 .breast .metn p, #meals .meal2 .breast .metn p, #meals .meal3 .breast .metn p, #meals .meal4 .breast .metn p, 
+      #meals .meal1 .sea .metn p, #meals .meal2 .sea .metn p, #meals .meal3 .sea .metn p, #meals .meal4 .sea .metn p, 
+      #meals .meal1 .paprika .metn1 p, #meals .meal2 .paprika .metn1 p, #meals .meal3 .paprika .metn1 p, #meals .meal4 .paprika .metn1 p,
+      #meals .meal1 .steak .metn p, #meals .meal2 .steak .metn p, #meals .meal3 .steak .metn p, #meals .meal4 .steak .metn p{
+        font-size: 9px;
+      }
+      #creamy .tostparty{
+        margin-left: 74px;
+      }
+      #creamy .tostparty .party .partytext{
+        margin-left: 68px;
+      }
+      #creamy .author{
+        margin-left: 59px;
+      }
+      #creamy .related{
+        margin-left: 74px;
+      }
+      #form .forms{
+        margin-left: 61px;
+      }
+}
+@media screen and (min-width:1200px){
+  /* #meals .meal1 .fillet, #meals .meal2 .fillet, #meals .meal3 .fillet, #meals .meal4 .fillet{
+    width: 200px;
+    
+  } */
+}
+
+
+@media screen and (max-width:992px){
+  header .page .pagein .myh4{
+    font-size: 23px;
+  }
+  header .page .pagein .myh1{
+    font-size: 54px;
+  }
+  header .page .pagein .myp{
+    font-size: 13px;
+  }
+  header .responsivemain{
+    display: block;
+}
+header .responsivemain  img{
+    margin-top: 30px;
+    margin-bottom: 15px;
+}
+header .main{
+  display: none;
+}
+  #hello .hello .food1 .new .img, #hello .hello .food1 .fresh .img, #hello .hello .food1 .creative .img {
+    width: 200px;
+  }
+  #hello .hello .food2 .bread .img {
+    margin-left: 142px;
+  }
+  #hello .hello .food3 .since .img {
+    margin-left: -27px;
+  }
+  
+  #hello .hello .gallery ul {
+    margin-left: 122px;
+  }
+  #hello .hello .food4 .chef1 .img, #hello .hello .food4 .chef2 .img, #hello .hello .food4 .chef3 .img, #hello .hello .food4 .chef4 .img{
+    width: 314px;
+  }
+  #specials .text h4{
+   margin-left: 264px;
+ }
+  #specials .text h3{
+   margin-left: 127px;
+ }
+  #specials .circle1{
+  left: 353px;
+ }
+  #specials .circle2{
+   left: 353px;
+ }
+  #specials .vaxtlar{
+    margin-left: 46px;
+ }
+  #tastymeals .meals .gallery ul {
+      margin-left: -179px;
+      }
+      
+  #tastymeals .tastegallery .gallery{
+        margin-left: 261px;
+      }      
+  #tastymeals .tastegallery .gallery li{
+        margin-left: 30px;
+      }
+  #tastymeals .tastegallery .gallery ul{
+        margin-left: -149px;
+      } 
+  #meals{
+    height: 4363px;
+  }
+  #meals .meal1 .fillet, #meals .meal2 .fillet, #meals .meal3 .fillet, #meals .meal4 .fillet{
+    margin-left: 112px;
+  }
+  #meals .meal1 .paella, #meals .meal2 .paella, #meals .meal3 .paella, #meals .meal4 .paella{
+    margin-left: 112px;
+  }
+  #meals .meal1 .breast, #meals .meal2 .breast, #meals .meal3 .breast, #meals .meal4 .breast{
+    margin-left: 112px;
+  }
+  #meals .meal1 .sea, #meals .meal2 .sea, #meals .meal3 .sea, #meals .meal4 .sea{
+    margin-left: 112px;
+  }
+  #meals .meal1 .paprika, #meals .meal2 .paprika, #meals .meal3 .paprika, #meals .meal4 .paprika{
+    margin-left: 112px;
+  }
+  #meals .meal1 .steak, #meals .meal2 .steak, #meals .meal3 .steak, #meals .meal4 .steak
+  {
+    margin-left: 112px;
+  }
+  .discovera a{
+    margin-left: -264px;
+  }
+  #backgroundslider .slaytlar .slayt1 .imgperson, #backgroundslider .slaytlar .slayt2 .imgperson, #backgroundslider .slaytlar .slayt3 .imgperson, #backgroundslider .slaytlar .slayt4 .imgperson{
+    margin-left: 34px;
+  }
+  #backgroundslider .slaytlar .slayt1 h4, #backgroundslider .slaytlar .slayt2 h4, #backgroundslider .slaytlar .slayt3 h4, #backgroundslider .slaytlar .slayt4 h4{
+    font-size: 15px;
+  }
+  #backgroundslider .bottom{
+    left: 444px;
+  }
+  #backgroundslider .top{
+    left: 444px;
+    top: 930px;
+  }
+  #finish .reservation .reserv{
+    display: none;
+  }
+  #finish .sosial ul{
+    margin-left: 172px;
+  }
+  #alleat .all{
+    margin-left: 116px;
+  }
+  #allmenu .imgallmenu{
+    margin-left: -69px;
+  }       
+  header .page .pagebackground .pagetop{
+    left: 327px;
+  }      
+  .loada a{
+    margin-left: -298px;
+  } 
+  #creamy .bal{
+    margin-left: -110px;
+  }
+      #meals .meal1 .fillet .metn, #meals .meal2 .fillet .metn, #meals .meal3 .fillet .metn, #meals .meal4 .fillet .metn, #meals .meal1 .fillet .filletimg, #meals .meal1 .fillet .filletimg2, #meals .meal1 .fillet .filletimg3, #meals .meal1 .fillet .filletimg4, #meals .meal2 .fillet .filletimg, #meals .meal2 .fillet .filletimg2, #meals .meal2 .fillet .filletimg3, #meals .meal2 .fillet .filletimg4, #meals .meal3 .fillet .filletimg, #meals .meal3 .fillet .filletimg2, #meals .meal3 .fillet .filletimg3, #meals .meal3 .fillet .filletimg4, #meals .meal4 .fillet .filletimg, #meals .meal4 .fillet .filletimg2, #meals .meal4 .fillet .filletimg3, #meals .meal4 .fillet .filletimg4, 
+      #meals .meal1 .paella .paellaimg, #meals .meal1 .paella .paellaimg2, #meals .meal1 .paella .paellaimg3, #meals .meal1 .paella .paellaimg4, #meals .meal2 .paella .paellaimg, #meals .meal2 .paella .paellaimg2, #meals .meal2 .paella .paellaimg3, #meals .meal2 .paella .paellaimg4, #meals .meal3 .paella .paellaimg, #meals .meal3 .paella .paellaimg2, #meals .meal3 .paella .paellaimg3, #meals .meal3 .paella .paellaimg4, #meals .meal4 .paella .paellaimg, #meals .meal4 .paella .paellaimg2, #meals .meal4 .paella .paellaimg3, #meals .meal4 .paella .paellaimg4, #meals .meal1 .paella .metn1, #meals .meal2 .paella .metn1, #meals .meal3 .paella .metn1, #meals .meal4 .paella .metn1, 
+      #meals .meal1 .breast .metn, #meals .meal2 .breast .metn, #meals .meal3 .breast .metn, #meals .meal4 .breast .metn, #meals .meal1 .breast .breastimg, #meals .meal1 .breast .breastimg2, #meals .meal1 .breast .breastimg3, #meals .meal1 .breast .breastimg4, #meals .meal2 .breast .breastimg, #meals .meal2 .breast .breastimg2, #meals .meal2 .breast .breastimg3, #meals .meal2 .breast .breastimg4, #meals .meal3 .breast .breastimg, #meals .meal3 .breast .breastimg2, #meals .meal3 .breast .breastimg3, #meals .meal3 .breast .breastimg4, #meals .meal4 .breast .breastimg, #meals .meal4 .breast .breastimg2, #meals .meal4 .breast .breastimg3, #meals .meal4 .breast .breastimg4,
+      #meals .meal1 .sea .metn, #meals .meal2 .sea .metn, #meals .meal3 .sea .metn, #meals .meal4 .sea .metn,
+      #meals .meal1 .sea .seaimg, #meals .meal1 .sea .seaimg2, #meals .meal1 .sea .seaimg3, #meals .meal1 .sea .seaimg4, #meals .meal2 .sea .seaimg, #meals .meal2 .sea .seaimg2, #meals .meal2 .sea .seaimg3, #meals .meal2 .sea .seaimg4, #meals .meal3 .sea .seaimg, #meals .meal3 .sea .seaimg2, #meals .meal3 .sea .seaimg3, #meals .meal3 .sea .seaimg4, #meals .meal4 .sea .seaimg, #meals .meal4 .sea .seaimg2, #meals .meal4 .sea .seaimg3, #meals .meal4 .sea .seaimg4,
+      #meals .meal1 .paprika .paprikaimg, #meals .meal1 .paprika .paprikaimg2, #meals .meal1 .paprika .paprikaimg3, #meals .meal1 .paprika .paprikaimg4, #meals .meal2 .paprika .paprikaimg, #meals .meal2 .paprika .paprikaimg2, #meals .meal2 .paprika .paprikaimg3, #meals .meal2 .paprika .paprikaimg4, #meals .meal3 .paprika .paprikaimg, #meals .meal3 .paprika .paprikaimg2, #meals .meal3 .paprika .paprikaimg3, #meals .meal3 .paprika .paprikaimg4, #meals .meal4 .paprika .paprikaimg, #meals .meal4 .paprika .paprikaimg2, #meals .meal4 .paprika .paprikaimg3, #meals .meal4 .paprika .paprikaimg4,
+      #meals .meal1 .paprika .metn1, #meals .meal2 .paprika .metn1, #meals .meal3 .paprika .metn1, #meals .meal4 .paprika .metn1,
+      #meals .meal1 .steak .metn, #meals .meal2 .steak .metn, #meals .meal3 .steak .metn, #meals .meal4 .steak .metn,
+      #meals .meal1 .steak .steakimg, #meals .meal1 .steak .steakimg2, #meals .meal1 .steak .steakimg3, #meals .meal1 .steak .steakimg4, #meals .meal2 .steak .steakimg, #meals .meal2 .steak .steakimg2, #meals .meal2 .steak .steakimg3, #meals .meal2 .steak .steakimg4, #meals .meal3 .steak .steakimg, #meals .meal3 .steak .steakimg2, #meals .meal3 .steak .steakimg3, #meals .meal3 .steak .steakimg4, #meals .meal4 .steak .steakimg, #meals .meal4 .steak .steakimg2, #meals .meal4 .steak .steakimg3, #meals .meal4 .steak .steakimg4{
+        height: 400px;
+        width: 901px;
+        margin-left: -304px;
+      }
+      #creamy .bal{
+        margin-left: -62px;
+        width: 824px;
+      }
+      #creamy .bal .balimg{
+        width: 822px;
+        height: 433px;
+      }
+      #creamy .tostparty{
+        margin-left: 24px;
+      }
+      #creamy .tostparty .party .partytext{
+        margin-left: 0px;
+      }
+      #creamy .author{
+        width: 821px;
+        margin-left: -54px;
+      }
+      #creamy .related{
+        margin-left: 30px;
+      }
+      #form .forms{
+        width: 806px;
+    margin-left: -43px;
+      }
+}
+@media screen and (min-width:992px){
+
+/*     
+  header .main .menyu ul{
+      margin-left: 7px;
+  } */
+}
+@media screen and (max-width:769px){
+     #hello .hello .gallery ul {
+        margin-left: 0px;
+      }
+      #hello .hello .food1 .new .img, #hello .hello .food1 .fresh .img, #hello .hello .food1 .creative .img {
+        width: 315px;
+        margin-left: 84px;
+      }
+      #hello .hello .food1 .new p, #hello .hello .food1 .fresh p, #hello .hello .food1 .creative p{
+        font-size: 14px;
+      }
+      #hello .hello .food1 .new h3, #hello .hello .food1 .fresh h3, #hello .hello .food1 .creative h3{
+        font-size: 23px;
+      }
+      
+      #hello .hello .food3 .since .img {
+        margin-left: -80px;
+      }
+      #hello .hello .food4 .chef1 .img, #hello .hello .food4 .chef2 .img, #hello .hello .food4 .chef3 .img, #hello .hello .food4 .chef4 .img{
+        width: 225px;
+      }
+      #specials .vaxtlar{
+        margin-left: 46px;
+      }
+      #specials .text h4{
+        margin-left: 155px;
+        }
+        #specials .text h3{
+          margin-left: 79px;
+          font-size: 33px;
+        }
+        #specials .circle1{
+          left: 253px;
+        }
+        #specials .circle2{
+          left: 253px;
+        }      
+     #tastymeals .meals .gallery ul {
+        margin-left: -266px;
+      }
+      
+        #tastymeals .tastegallery .gallery ul{
+          margin-left: -235px;
+        } 
+        #backgroundslider .slaytlar .slayt1 h4, #backgroundslider .slaytlar .slayt2 h4, #backgroundslider .slaytlar .slayt3 h4, #backgroundslider .slaytlar .slayt4 h4{
+          font-size: 15px;
+        }
+        #backgroundslider .slaytlar .slayt1 .icons ul li i, #backgroundslider .slaytlar .slayt2 .icons ul li i, #backgroundslider .slaytlar .slayt3 .icons ul li i, #backgroundslider .slaytlar .slayt4 .icons ul li i{
+          font-size: 6px;
+        }        
+        #backgroundslider .slaytlar .slayt1 .imgperson, #backgroundslider .slaytlar .slayt2 .imgperson, #backgroundslider .slaytlar .slayt3 .imgperson, #backgroundslider .slaytlar .slayt4 .imgperson{
+          margin-left: 5px;
+        }
+        #backgroundslider .bottom{
+          left: 334px;
+        }
+        #backgroundslider .top{
+          left: 334px;
+          top: 1066x;
+        }
+        #finish .sosial ul{
+          margin-left: 83px;
+        }
+        #alleat .all{
+          margin-left: 43px;
+        }        
+        #allmenu .imgallmenu{
+          margin-left: 0px;
+        }        
+        header .page .pagebackground .pagetop{
+          left: 235px;
+        }          
+        .loada a{
+          margin-left: -375px;
+        }
+        #meals .meal1 .fillet .metn, #meals .meal2 .fillet .metn, #meals .meal3 .fillet .metn, #meals .meal4 .fillet .metn, #meals .meal1 .fillet .filletimg, #meals .meal1 .fillet .filletimg2, #meals .meal1 .fillet .filletimg3, #meals .meal1 .fillet .filletimg4, #meals .meal2 .fillet .filletimg, #meals .meal2 .fillet .filletimg2, #meals .meal2 .fillet .filletimg3, #meals .meal2 .fillet .filletimg4, #meals .meal3 .fillet .filletimg, #meals .meal3 .fillet .filletimg2, #meals .meal3 .fillet .filletimg3, #meals .meal3 .fillet .filletimg4, #meals .meal4 .fillet .filletimg, #meals .meal4 .fillet .filletimg2, #meals .meal4 .fillet .filletimg3, #meals .meal4 .fillet .filletimg4, 
+        #meals .meal1 .paella .paellaimg, #meals .meal1 .paella .paellaimg2, #meals .meal1 .paella .paellaimg3, #meals .meal1 .paella .paellaimg4, #meals .meal2 .paella .paellaimg, #meals .meal2 .paella .paellaimg2, #meals .meal2 .paella .paellaimg3, #meals .meal2 .paella .paellaimg4, #meals .meal3 .paella .paellaimg, #meals .meal3 .paella .paellaimg2, #meals .meal3 .paella .paellaimg3, #meals .meal3 .paella .paellaimg4, #meals .meal4 .paella .paellaimg, #meals .meal4 .paella .paellaimg2, #meals .meal4 .paella .paellaimg3, #meals .meal4 .paella .paellaimg4, #meals .meal1 .paella .metn1, #meals .meal2 .paella .metn1, #meals .meal3 .paella .metn1, #meals .meal4 .paella .metn1, 
+        #meals .meal1 .breast .metn, #meals .meal2 .breast .metn, #meals .meal3 .breast .metn, #meals .meal4 .breast .metn, #meals .meal1 .breast .breastimg, #meals .meal1 .breast .breastimg2, #meals .meal1 .breast .breastimg3, #meals .meal1 .breast .breastimg4, #meals .meal2 .breast .breastimg, #meals .meal2 .breast .breastimg2, #meals .meal2 .breast .breastimg3, #meals .meal2 .breast .breastimg4, #meals .meal3 .breast .breastimg, #meals .meal3 .breast .breastimg2, #meals .meal3 .breast .breastimg3, #meals .meal3 .breast .breastimg4, #meals .meal4 .breast .breastimg, #meals .meal4 .breast .breastimg2, #meals .meal4 .breast .breastimg3, #meals .meal4 .breast .breastimg4,
+        #meals .meal1 .sea .metn, #meals .meal2 .sea .metn, #meals .meal3 .sea .metn, #meals .meal4 .sea .metn,
+        #meals .meal1 .sea .seaimg, #meals .meal1 .sea .seaimg2, #meals .meal1 .sea .seaimg3, #meals .meal1 .sea .seaimg4, #meals .meal2 .sea .seaimg, #meals .meal2 .sea .seaimg2, #meals .meal2 .sea .seaimg3, #meals .meal2 .sea .seaimg4, #meals .meal3 .sea .seaimg, #meals .meal3 .sea .seaimg2, #meals .meal3 .sea .seaimg3, #meals .meal3 .sea .seaimg4, #meals .meal4 .sea .seaimg, #meals .meal4 .sea .seaimg2, #meals .meal4 .sea .seaimg3, #meals .meal4 .sea .seaimg4,
+        #meals .meal1 .paprika .paprikaimg, #meals .meal1 .paprika .paprikaimg2, #meals .meal1 .paprika .paprikaimg3, #meals .meal1 .paprika .paprikaimg4, #meals .meal2 .paprika .paprikaimg, #meals .meal2 .paprika .paprikaimg2, #meals .meal2 .paprika .paprikaimg3, #meals .meal2 .paprika .paprikaimg4, #meals .meal3 .paprika .paprikaimg, #meals .meal3 .paprika .paprikaimg2, #meals .meal3 .paprika .paprikaimg3, #meals .meal3 .paprika .paprikaimg4, #meals .meal4 .paprika .paprikaimg, #meals .meal4 .paprika .paprikaimg2, #meals .meal4 .paprika .paprikaimg3, #meals .meal4 .paprika .paprikaimg4,
+        #meals .meal1 .paprika .metn1, #meals .meal2 .paprika .metn1, #meals .meal3 .paprika .metn1, #meals .meal4 .paprika .metn1,
+        #meals .meal1 .steak .metn, #meals .meal2 .steak .metn, #meals .meal3 .steak .metn, #meals .meal4 .steak .metn,
+        #meals .meal1 .steak .steakimg, #meals .meal1 .steak .steakimg2, #meals .meal1 .steak .steakimg3, #meals .meal1 .steak .steakimg4, #meals .meal2 .steak .steakimg, #meals .meal2 .steak .steakimg2, #meals .meal2 .steak .steakimg3, #meals .meal2 .steak .steakimg4, #meals .meal3 .steak .steakimg, #meals .meal3 .steak .steakimg2, #meals .meal3 .steak .steakimg3, #meals .meal3 .steak .steakimg4, #meals .meal4 .steak .steakimg, #meals .meal4 .steak .steakimg2, #meals .meal4 .steak .steakimg3, #meals .meal4 .steak .steakimg4{
+          height: 400px;
+          width: 756px;
+          margin-left: -355px;
+        }      
+        #creamy .bal{
+          margin-left: -96px;
+          width: 715px;
+        }          
+        #creamy .bal .balimg{
+          width: 717px;
+        }
+        #creamy .bal .baltext p{
+          font-size: 10px;
+        }
+        #creamy .tostparty{
+          height: 196px;
+        }
+        #creamy .tostparty .tost .tostimg{
+          margin-left: 104px;
+        }
+        #creamy .tostparty .party .partytext{
+          margin-left: 87px;
+        }
+        #creamy .author{
+          width: 718px;
+          margin-left: -89px;
+        }
+        #creamy .author .authortext p
+        {
+          font-size: 12px;
+        }
+        #creamy .author{
+          width: 600px;
+          margin-left: -36px;
+        }
+        #creamy .author .authortext p{
+          font-size: 9px;
+        }
+        #creamy .related{
+          height: 869px;
+        }
+        #form .forms{
+          width: 588px;
+          margin-left: -26px;
+        }
+        .form-check-label{
+          font-size: 14px;
+        }
+          
+}
+
+
+@media screen and (max-width:730px){
+  #creamy .bal{
+    margin-left: -31px;
+    width: 590px;
+  }        
+  #creamy .bal .balimg{
+    width: 588px;
+  }  
+
+}
+
+
+
+
+@media screen and (max-width:576px){
+   #hello .hello .gallery ul {
+    margin-left: 0px;
+  }
+  #hello .hello .food1 .new .img, #hello .hello .food1 .fresh .img, #hello .hello .food1 .creative .img{
+    margin-left: 91px;
+  }
+  #hello .hello .food4 .chef1 .img, #hello .hello .food4 .chef2 .img, #hello .hello .food4 .chef3 .img, #hello .hello .food4 .chef4 .img{
+    width: 502px;
+  }
+  #specials .vaxtlar{
+    margin-left: 27px;
+  }
+  #specials .circle1{
+    left: 226px;
+  }
+  #specials .circle2{
+    left: 226px;
+  }
+  #specials .text h4{
+    margin-left: 117px;
+    }
+    #specials .text h3{
+      margin-left: 113px;
+      font-size: 24px;
+    }  
+    #tastymeals .meals .gallery ul {
+      margin-left: -386px;
+      }
+    #tastymeals .tastegallery .gallery ul{
+      margin-left: -226px;
+    }
+    #tastymeals .tastegallery .gallery{
+      margin-left: 261px;
+    }     
+    #backgroundslider .bottom{
+      left: 224px;
+    }
+    #backgroundslider .top{
+      left: 224px;
+      top: 1048px;
+    }    
+    #allmenu .imgallmenu{
+      margin-left: 130px;
+    }    
+    #alleat .all{
+      margin-left: 15px;
+    }
+    .loada a{
+      margin-left: -465px;
+    }     
+    #creamy .bal{
+      margin-left: 19px;
+      width: 474px;
+    }          
+    #creamy .bal .balimg{
+      width: 477px;
+    }
+    #creamy .bal .baltext p{
+      font-size: 6px;
+    }
+    #creamy .tostparty{
+      width: 471px;
+      margin-left: 36px;
+    }
+    #creamy .tostparty .tost .tostimg{
+      margin-left: 77px;
+    }
+    #creamy .tostparty .party .partytext{
+      margin-left: 65px;
+    }
+    #creamy .author{
+      width: 477px;
+    margin-left: 20px;
+    }
+    #creamy .author .authortext p{
+      font-size: 6px;
+    }
+    #creamy .related{
+      margin-left: 5px;
+    }
+    #form .forms{
+      width: 455px;
+    margin-left: 27px;
+    }
+  /*
+    #hello .hello .gallery ul{
+      margin-left: 51px;
+    }
+    #hello .hello .gallery ul li{
+      font-size: 24px;
+    }
+    #hello .hello .food2 .bread .img {
+      margin-left: 76px;
+    } */
+}
+
+@media screen and (max-width:520px){
+  #creamy .bal{
+  margin-left: 8px;
+  }
+  #creamy .author{
+    margin-left: 8px;
+  }
+
+}
+
+@media screen and (max-width:479px){
+  #hello .hello .food1 .new .img, #hello .hello .food1 .fresh .img, #hello .hello .food1 .creative .img{
+    margin-left: 50px;
+  }
+  #hello .hello .food4 .chef1 .img, #hello .hello .food4 .chef2 .img, #hello .hello .food4 .chef3 .img, #hello .hello .food4 .chef4 .img{
+    width: 322px;
+  }
+  #hello .hello .food4 .chef1, #hello .hello .food4 .chef2, #hello .hello .food4 .chef3, #hello .hello .food4 .chef4{
+    width: 79%;
+    margin-left: 52px;
+  }
+  #hello .hello .gallery ul{
+    margin-left: 46px;
+  }
+  #specials .vaxtlar .vaxt{
+    top:30px;
+  }
+  #specials .circle1, #specials .circle2{
+    display: none;
+  }
+  #specials .text h4{
+    margin-left: 97px;
+  }
+  #specials .text h3{
+    margin-left: 81px;
+  }
+  #hello .hello .gallery ul li{
+    font-size: 10px;
+  }
+  #tastymeals .tastegallery .gallery li{
+    font-size: 10px;
+  }
+  #alleat .all li{
+    font-size: 16px;
+  }
+  #allmenu .imgallmenu{
+    margin-left: 94px;
+  }
+  header .page .pagebackground .pagetop{
+    left: 191px;
+  }
+  .loada a{
+    margin-left: -543px;
+  }
+  #creamy .bal{
+    margin-left: -3px;
+    width: 390px;
+  }          
+  #creamy .bal .balimg{
+    width: 387px;
+  }
+  #creamy .bal .baltext p{
+    font-size: 12px;
+  }
+  #finish .sosial ul{
+    margin-left: 39px;
+  }
+  #creamy .tostparty{
+    width: 386px;
+    margin-left: 16px;
+  }
+  #creamy .tostparty .tost .tostimg{
+    margin-left: 34px;
+  }
+  #creamy .tostparty .party .partytext{
+    margin-left: 22px;
+  }
+  #creamy .author{
+    width: 384px;
+    margin-left: -3px;
+  }
+  #creamy .author .authortext p{
+    font-size: 4px;
+  }
+  #form .forms{
+    width: 395px;
+    margin-left: -7px;
+  }
+}
+
+@media screen and (max-width:404px){
+  #hello .hello .food1 .new .img, #hello .hello .food1 .fresh .img, #hello .hello .food1 .creative .img{
+    margin-left: 6px;
+  }
+  #hello .hello .gallery ul{
+    margin-left: -19px;
+  }
+  #hello .hello .food4 .chef1, #hello .hello .food4 .chef2, #hello .hello .food4 .chef3, #hello .hello .food4 .chef4{
+    margin-left: -12px;
+    width: 110%;
+  }
+  #alleat .all li{
+    font-size: 10px;
+  }
+  #allmenu .imgallmenu{
+    margin-left: 46px;
+  }
+  header .page .pagebackground .pagetop{
+    left: 145px;
+  }
+  #finish .sosial ul{
+    margin-left: 0px;
+  }
+}
+@media screen and (max-width:414px){
+  #creamy .bal{
+    margin-left: -1px;
+    width: 325px;
+  }          
+  #creamy .bal .balimg{
+    width: 321px;
+  }
+  #creamy .bal .baltext p{
+    font-size: 10px;
+  }
+  #creamy .tostparty{
+    width: 325px;
+    margin-left: 10px;
+  }
+  #creamy .tostparty .tost .tostimg{
+    margin-left: 17px;
+  }
+  #creamy .tostparty .party .partytext{
+    margin-left: 0px;
+  }
+  #creamy .author{
+    width: 323px;
+  }
+  #creamy .author .authortext p{
+    font-size: 2px;
+  }
+  #form .forms{
+    width: 369px;
+    margin-left: -13px;
+  }
+  .form-check-label{
+    font-size: 10px;
+  }
+}
+

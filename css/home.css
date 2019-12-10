@@ -1,0 +1,1622 @@
+* {
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box; }
+
+header {
+  position: relative; }
+  header .opaci {
+    position: absolute;
+    width: 100%;
+    height: 100vh;
+    background-color: black;
+    opacity: 90%;
+    top: 0;
+    left: 0;
+    z-index: 20;
+    display: none; }
+    header .opaci .input {
+      background-color: transparent;
+      border: medium none;
+      padding: 0 0 0 0;
+      font-size: 35px;
+      font-family: 'Kaushanscript Regular';
+      color: #fff;
+      font-weight: 300;
+      height: 60px;
+      margin-left: 504px;
+      margin-top: 291px; }
+    header .opaci .search {
+      font-size: 32px;
+      color: #bc8d46; }
+    header .opaci .times {
+      color: #fff;
+      margin-left: 48px;
+      font-size: 41px; }
+  header .gosder {
+    display: block;
+    position: fixed;
+    top: 0;
+    left: 0; }
+  header .main {
+    margin-top: -8px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 10;
+    background-color: transparent;
+    border-color: transparent;
+    font-family: 'Raleway', sans-serif;
+    border-bottom: solid 1px rgba(197, 192, 192, 0.76); }
+    header .main .img {
+      margin-top: 40px;
+      margin-bottom: 25px; }
+    header .main .menyu {
+      margin-top: 23px;
+      margin-bottom: 7px; }
+      header .main .menyu ul {
+        margin-left: 65px; }
+        header .main .menyu ul .ferqli {
+          margin-top: -5px;
+          padding: 4px;
+          border: solid 2px #fff;
+          transition: 0.4s; }
+          header .main .menyu ul .ferqli:hover {
+            border: solid 2px #bc8d46;
+            background-color: #bc8d46; }
+        header .main .menyu ul .active {
+          position: relative; }
+          header .main .menyu ul .active .xet1 {
+            position: absolute;
+            width: 31px;
+            height: 2px;
+            background-color: #fff;
+            display: inline-block;
+            top: 65px;
+            left: 10px; }
+        header .main .menyu ul li {
+          position: relative;
+          display: inline-block;
+          font-weight: 800;
+          font-size: 13px;
+          margin-left: 18px;
+          letter-spacing: 0.02em; }
+          header .main .menyu ul li:hover .xet1 {
+            position: absolute;
+            width: 31px;
+            height: 2px;
+            background-color: #fff;
+            display: inline-block;
+            top: 65px;
+            left: 10px;
+            opacity: 1;
+            transition: 0.4s;
+            z-index: 999; }
+          header .main .menyu ul li a {
+            text-decoration: none;
+            color: #fff;
+            z-index: 999; }
+          header .main .menyu ul li i {
+            cursor: pointer;
+            color: #fff;
+            font-size: 16px;
+            transition: 0.4s; }
+            header .main .menyu ul li i:hover {
+              color: #bc8d46; }
+  header .bartop {
+    position: absolute;
+    background-color: #fff;
+    width: 22%;
+    height: 710px;
+    z-index: 12;
+    left: 1198px;
+    display: none; }
+    header .bartop .text {
+      margin-top: 20px; }
+      header .bartop .text a {
+        background-color: #bc8d46;
+        border-radius: 3px;
+        color: #fff;
+        display: inline-block;
+        font-size: 13px;
+        font-weight: 800;
+        line-height: 28px;
+        padding: 1px 8px 0;
+        transition: 0.4s;
+        text-decoration: none;
+        margin-right: 251px; }
+        header .bartop .text a:hover {
+          background-color: #000; }
+      header .bartop .text h4 {
+        font-size: 20px;
+        line-height: 30px;
+        color: #282828;
+        margin-bottom: 20px;
+        position: relative;
+        padding-bottom: 2px; }
+      header .bartop .text .img {
+        width: 51px;
+        height: 51px;
+        display: inline-block; }
+        header .bartop .text .img img {
+          width: 100%;
+          height: 100%; }
+      header .bartop .text .sp1 {
+        font-size: 11px;
+        line-height: 1;
+        color: #686868;
+        font-weight: 600; }
+      header .bartop .text .sp2 {
+        font-size: 14px;
+        font-weight: 800;
+        line-height: 22px;
+        margin-bottom: 18px;
+        margin-top: 7px;
+        padding-bottom: 15px;
+        color: #000; }
+        header .bartop .text .sp2:hover {
+          color: #bc8d46; }
+  header .bargosder {
+    display: block; }
+  header .home {
+    transition: 0.4s;
+    width: 100%;
+    font-family: 'Gupter', serif;
+    position: absolute;
+    background-color: #1a1818ec;
+    top: 122px;
+    display: none; }
+    header .home .hm1 {
+      margin-top: 33px;
+      margin-bottom: 33px; }
+      header .home .hm1 ul li {
+        border-left: 1px solid rgba(127, 127, 127, 0.1);
+        list-style: none;
+        font-size: 17px;
+        padding: 8px 26px;
+        text-align: left; }
+        header .home .hm1 ul li .active {
+          color: #bc8d46; }
+        header .home .hm1 ul li a {
+          color: #7f7f7f;
+          text-decoration: none; }
+          header .home .hm1 ul li a:hover {
+            color: #bc8d46; }
+    header .home .hm2 {
+      margin-top: 33px;
+      margin-bottom: 33px; }
+      header .home .hm2 ul li {
+        border-left: 1px solid rgba(127, 127, 127, 0.1);
+        list-style: none;
+        font-size: 17px;
+        padding: 8px 26px;
+        text-align: left; }
+        header .home .hm2 ul li a {
+          color: #7f7f7f;
+          text-decoration: none; }
+          header .home .hm2 ul li a:hover {
+            color: #bc8d46; }
+    header .home .hm3 {
+      margin-top: 33px;
+      margin-bottom: 33px; }
+      header .home .hm3 ul li {
+        border-left: 1px solid rgba(127, 127, 127, 0.1);
+        list-style: none;
+        font-size: 17px;
+        padding: 8px 26px;
+        text-align: left; }
+        header .home .hm3 ul li a {
+          color: #7f7f7f;
+          text-decoration: none; }
+          header .home .hm3 ul li a:hover {
+            color: #bc8d46; }
+    header .home .hm4 {
+      margin-top: 33px;
+      margin-bottom: 33px; }
+      header .home .hm4 ul li {
+        border-left: 1px solid rgba(127, 127, 127, 0.1);
+        list-style: none;
+        font-size: 17px;
+        padding: 8px 26px;
+        text-align: left; }
+        header .home .hm4 ul li a {
+          color: #7f7f7f;
+          text-decoration: none; }
+          header .home .hm4 ul li a:hover {
+            color: #bc8d46; }
+  header .page {
+    font-family: 'Great Vibes', cursive; }
+    header .page .carousel-inner .carousel-item {
+      height: 100vh; }
+      header .page .carousel-inner .carousel-item .banner {
+        -webkit-backdrop-size: cover;
+        background-size: cover;
+        background-position: center center;
+        background-repeat: no-repeat;
+        height: 100vh; }
+    header .page .pagein {
+      padding-bottom: 190px; }
+      header .page .pagein .myh4 {
+        letter-spacing: 0px;
+        line-height: 25px;
+        font-weight: 400;
+        font-size: 29px;
+        text-align: center;
+        color: white;
+        margin-top: 180px; }
+      header .page .pagein .myh1 {
+        font-weight: 400;
+        font-size: 74px;
+        text-align: center;
+        color: white;
+        margin-bottom: 36px; }
+      header .page .pagein .myp {
+        font-family: 'Raleway', sans-serif;
+        text-align: center;
+        color: white;
+        font-weight: 700;
+        font-size: 18px;
+        line-height: 19px;
+        margin-bottom: 40px; }
+      header .page .pagein .mya {
+        font-family: 'Raleway', sans-serif;
+        text-align: center;
+        color: white;
+        text-decoration: none;
+        border: 2px solid #fff;
+        padding: 10px 34px;
+        font-size: 16px;
+        font-weight: 600;
+        letter-spacing: 0px;
+        transition: 0.4s; }
+        header .page .pagein .mya:hover {
+          background-color: #bc8d46;
+          border: 2px solid #bc8d46; }
+  header .responsivemain {
+    margin-top: -8px;
+    z-index: 9;
+    font-family: 'Raleway', sans-serif;
+    background-color: #fff;
+    display: none; }
+    header .responsivemain img {
+      margin-top: 40px;
+      margin-bottom: 25px; }
+    header .responsivemain .responsivemenyu {
+      margin-top: 23px;
+      margin-bottom: 7px; }
+      header .responsivemain .responsivemenyu ul {
+        margin-left: 65px; }
+        header .responsivemain .responsivemenyu ul li {
+          position: relative;
+          display: inline-block;
+          font-weight: 800;
+          font-size: 13px;
+          margin-left: 18px;
+          letter-spacing: 0.02em; }
+          header .responsivemain .responsivemenyu ul li i {
+            cursor: pointer;
+            color: #fff;
+            font-size: 17px;
+            transition: 0.4s;
+            background-color: #000;
+            padding: 11px 16px;
+            border-radius: 3px; }
+            header .responsivemain .responsivemenyu ul li i:hover {
+              background-color: #bc8d46; }
+    header .responsivemain .bargosder {
+      display: block; }
+    header .responsivemain .home {
+      transition: 0.4s;
+      width: 100%;
+      font-family: 'Gupter', serif;
+      position: absolute;
+      background-color: #1a1818ec;
+      top: 122px;
+      display: none; }
+      header .responsivemain .home .hm1 {
+        margin-top: 33px;
+        margin-bottom: 33px; }
+        header .responsivemain .home .hm1 ul li {
+          border-left: 1px solid rgba(127, 127, 127, 0.1);
+          list-style: none;
+          font-size: 17px;
+          padding: 8px 26px;
+          text-align: left; }
+          header .responsivemain .home .hm1 ul li .active {
+            color: #bc8d46; }
+          header .responsivemain .home .hm1 ul li a {
+            color: #7f7f7f;
+            text-decoration: none; }
+            header .responsivemain .home .hm1 ul li a:hover {
+              color: #bc8d46; }
+      header .responsivemain .home .hm2 {
+        margin-top: 33px;
+        margin-bottom: 33px; }
+        header .responsivemain .home .hm2 ul li {
+          border-left: 1px solid rgba(127, 127, 127, 0.1);
+          list-style: none;
+          font-size: 17px;
+          padding: 8px 26px;
+          text-align: left; }
+          header .responsivemain .home .hm2 ul li a {
+            color: #7f7f7f;
+            text-decoration: none; }
+            header .responsivemain .home .hm2 ul li a:hover {
+              color: #bc8d46; }
+      header .responsivemain .home .hm3 {
+        margin-top: 33px;
+        margin-bottom: 33px; }
+        header .responsivemain .home .hm3 ul li {
+          border-left: 1px solid rgba(127, 127, 127, 0.1);
+          list-style: none;
+          font-size: 17px;
+          padding: 8px 26px;
+          text-align: left; }
+          header .responsivemain .home .hm3 ul li a {
+            color: #7f7f7f;
+            text-decoration: none; }
+            header .responsivemain .home .hm3 ul li a:hover {
+              color: #bc8d46; }
+      header .responsivemain .home .hm4 {
+        margin-top: 33px;
+        margin-bottom: 33px; }
+        header .responsivemain .home .hm4 ul li {
+          border-left: 1px solid rgba(127, 127, 127, 0.1);
+          list-style: none;
+          font-size: 17px;
+          padding: 8px 26px;
+          text-align: left; }
+          header .responsivemain .home .hm4 ul li a {
+            color: #7f7f7f;
+            text-decoration: none; }
+            header .responsivemain .home .hm4 ul li a:hover {
+              color: #bc8d46; }
+    header .responsivemain .page {
+      font-family: 'Great Vibes', cursive; }
+      header .responsivemain .page .carousel-inner .carousel-item {
+        height: 100vh; }
+        header .responsivemain .page .carousel-inner .carousel-item .banner {
+          -webkit-backdrop-size: cover;
+          background-size: cover;
+          background-position: center center;
+          background-repeat: no-repeat;
+          height: 100vh; }
+      header .responsivemain .page .pagein {
+        padding-bottom: 190px; }
+        header .responsivemain .page .pagein .myh4 {
+          letter-spacing: 0px;
+          line-height: 25px;
+          font-weight: 400;
+          font-size: 29px;
+          text-align: center;
+          color: white;
+          margin-top: 180px; }
+        header .responsivemain .page .pagein .myh1 {
+          font-weight: 400;
+          font-size: 74px;
+          text-align: center;
+          color: white;
+          margin-bottom: 36px; }
+        header .responsivemain .page .pagein .myp {
+          font-family: 'Raleway', sans-serif;
+          text-align: center;
+          color: white;
+          font-weight: 700;
+          font-size: 18px;
+          line-height: 19px;
+          margin-bottom: 40px; }
+        header .responsivemain .page .pagein .mya {
+          font-family: 'Raleway', sans-serif;
+          text-align: center;
+          color: white;
+          text-decoration: none;
+          border: 2px solid #fff;
+          padding: 10px 34px;
+          font-size: 16px;
+          font-weight: 600;
+          letter-spacing: 0px;
+          transition: 0.4s; }
+          header .responsivemain .page .pagein .mya:hover {
+            background-color: #bc8d46;
+            border: 2px solid #bc8d46; }
+
+#hello {
+  margin-top: 130px;
+  font-family: 'Great Vibes', cursive; }
+  #hello .hello .welcome {
+    text-align: center; }
+    #hello .hello .welcome h4 {
+      font-size: 41px;
+      line-height: 1;
+      color: rgba(188, 141, 70, 0.87); }
+    #hello .hello .welcome h1 {
+      font-size: 54px;
+      margin: 0;
+      padding-top: 7px;
+      padding-bottom: 18px; }
+    #hello .hello .welcome p {
+      font-size: 26px;
+      line-height: 24px;
+      padding-bottom: 19px;
+      padding-top: 19px;
+      color: #9b9b9b; }
+  #hello .hello .gallery {
+    font-family: 'Kaushan Script', cursive; }
+    #hello .hello .gallery ul {
+      margin-left: 270px; }
+      #hello .hello .gallery ul .activea {
+        position: relative; }
+        #hello .hello .gallery ul .activea p {
+          color: rgba(188, 141, 70, 0.87); }
+        #hello .hello .gallery ul .activea .xet1 {
+          position: absolute;
+          width: 78px;
+          height: 1.5px;
+          background-color: rgba(188, 141, 70, 0.87);
+          display: inline-block;
+          top: 55px;
+          left: -9px; }
+      #hello .hello .gallery ul li {
+        font-size: 27px;
+        display: inline-block;
+        list-style: none;
+        margin-left: 45px;
+        position: relative; }
+        #hello .hello .gallery ul li:hover .xet1 {
+          position: absolute;
+          width: 78px;
+          height: 1.5px;
+          background-color: rgba(188, 141, 70, 0.87);
+          display: inline-block;
+          top: 55px;
+          left: -9px;
+          opacity: 1;
+          transition: 0.4s;
+          z-index: 999; }
+        #hello .hello .gallery ul li p {
+          color: #000;
+          cursor: pointer; }
+          #hello .hello .gallery ul li p:hover {
+            color: rgba(188, 141, 70, 0.87); }
+  #hello .hello .food1 {
+    margin-top: 60px; }
+    #hello .hello .food1 .new, #hello .hello .food1 .fresh, #hello .hello .food1 .creative {
+      text-align: center; }
+      #hello .hello .food1 .new .img, #hello .hello .food1 .fresh .img, #hello .hello .food1 .creative .img {
+        width: 338px;
+        height: 233px; }
+        #hello .hello .food1 .new .img img, #hello .hello .food1 .fresh .img img, #hello .hello .food1 .creative .img img {
+          width: 100%;
+          height: 100%; }
+      #hello .hello .food1 .new h4, #hello .hello .food1 .fresh h4, #hello .hello .food1 .creative h4 {
+        font-size: 30px;
+        line-height: 29px;
+        color: #bc8d46;
+        margin-top: 25px; }
+      #hello .hello .food1 .new h3, #hello .hello .food1 .fresh h3, #hello .hello .food1 .creative h3 {
+        font-size: 27px;
+        line-height: 36px;
+        margin-top: 9px;
+        margin-bottom: 18px;
+        color: #222;
+        font-family: 'Kaushan Script', cursive; }
+      #hello .hello .food1 .new p, #hello .hello .food1 .fresh p, #hello .hello .food1 .creative p {
+        color: #9b9b9b;
+        font-family: 'Raleway', sans-serif; }
+  #hello .hello .food2 {
+    display: none;
+    margin-top: 60px; }
+    #hello .hello .food2 .bread .img {
+      margin-left: 341px;
+      margin-bottom: 30px; }
+    #hello .hello .food2 .bread p {
+      font-size: 40px;
+      color: #282828;
+      line-height: 42px;
+      text-align: center; }
+    #hello .hello .food2 .grand, #hello .hello .food2 .second, #hello .hello .food2 .great {
+      text-align: center; }
+      #hello .hello .food2 .grand h4, #hello .hello .food2 .second h4, #hello .hello .food2 .great h4 {
+        font-size: 38px;
+        line-height: 29px;
+        color: #bc8d46;
+        margin-top: 25px; }
+      #hello .hello .food2 .grand h3, #hello .hello .food2 .second h3, #hello .hello .food2 .great h3 {
+        font-size: 27px;
+        line-height: 36px;
+        margin-top: 9px;
+        margin-bottom: 18px;
+        color: #222;
+        font-family: 'Kaushan Script', cursive; }
+      #hello .hello .food2 .grand .img, #hello .hello .food2 .second .img, #hello .hello .food2 .great .img {
+        margin-bottom: 16px; }
+      #hello .hello .food2 .grand p, #hello .hello .food2 .second p, #hello .hello .food2 .great p {
+        color: #9b9b9b;
+        font-family: 'Raleway', sans-serif; }
+  #hello .hello .food3 {
+    display: none;
+    margin-top: 60px; }
+    #hello .hello .food3 .since .img {
+      margin-left: 147px;
+      margin-bottom: 50px; }
+    #hello .hello .food3 .since p {
+      font-size: 40px;
+      color: #282828;
+      line-height: 42px;
+      text-align: center; }
+    #hello .hello .food3 .lists {
+      font-family: 'Raleway', sans-serif; }
+      #hello .hello .food3 .lists ul {
+        margin-left: 108px; }
+        #hello .hello .food3 .lists ul li {
+          padding-left: 28px;
+          line-height: 30px;
+          color: #7f7f7f;
+          font-size: 14px; }
+  #hello .hello .food4 {
+    display: none;
+    margin-top: 60px;
+    margin-bottom: 60px; }
+    #hello .hello .food4 .chef1, #hello .hello .food4 .chef2, #hello .hello .food4 .chef3, #hello .hello .food4 .chef4 {
+      position: relative;
+      width: 100%;
+      text-align: center;
+      box-shadow: 0 0 20px rgba(0, 0, 0, 0.12); }
+      #hello .hello .food4 .chef1 .opacity, #hello .hello .food4 .chef2 .opacity, #hello .hello .food4 .chef3 .opacity, #hello .hello .food4 .chef4 .opacity {
+        position: absolute;
+        width: 247px;
+        top: 0;
+        height: 293px;
+        background-color: black;
+        opacity: 0; }
+      #hello .hello .food4 .chef1 .img, #hello .hello .food4 .chef2 .img, #hello .hello .food4 .chef3 .img, #hello .hello .food4 .chef4 .img {
+        width: 247px; }
+        #hello .hello .food4 .chef1 .img:hover .opacity, #hello .hello .food4 .chef2 .img:hover .opacity, #hello .hello .food4 .chef3 .img:hover .opacity, #hello .hello .food4 .chef4 .img:hover .opacity {
+          opacity: 73%; }
+        #hello .hello .food4 .chef1 .img img, #hello .hello .food4 .chef2 .img img, #hello .hello .food4 .chef3 .img img, #hello .hello .food4 .chef4 .img img {
+          width: 100%; }
+      #hello .hello .food4 .chef1 h3, #hello .hello .food4 .chef2 h3, #hello .hello .food4 .chef3 h3, #hello .hello .food4 .chef4 h3 {
+        font-size: 22px;
+        line-height: 26px;
+        color: #282828;
+        font-family: 'Kaushan Script', cursive;
+        margin-top: 19px;
+        margin-bottom: 12px; }
+      #hello .hello .food4 .chef1 span, #hello .hello .food4 .chef2 span, #hello .hello .food4 .chef3 span, #hello .hello .food4 .chef4 span {
+        color: #9b9b9b;
+        font-size: 13px;
+        font-family: 'Raleway', sans-serif; }
+
+#specials {
+  background-attachment: fixed;
+  background-image: linear-gradient(to bottom, rgba(17, 17, 17, 0.74) 0, rgba(17, 17, 17, 0.74) 100%), url(../img/granny-bg-parallax5.jpg);
+  width: 100%;
+  height: 994px;
+  margin-top: 100px;
+  position: relative; }
+  #specials .circle1 {
+    position: absolute;
+    width: 70px;
+    height: 40px;
+    border-radius: 100%;
+    background-color: #fff;
+    top: -24px;
+    left: 554px; }
+  #specials .text h4 {
+    font-family: 'Great Vibes', cursive;
+    font-size: 35px;
+    line-height: 1;
+    color: rgba(188, 141, 70, 0.87);
+    margin-top: 90px;
+    margin-left: 455px; }
+  #specials .text h3 {
+    font-family: 'Kaushan Script', cursive;
+    font-size: 45px;
+    line-height: 1.1;
+    margin: 0;
+    padding-top: 7px;
+    padding-bottom: 18px;
+    margin-left: 317px;
+    color: #fff; }
+  #specials .vaxtlar {
+    width: 90%;
+    height: 605px;
+    background-color: #fff;
+    position: relative;
+    margin-left: 82px;
+    margin-top: 21px; }
+    #specials .vaxtlar .vaxt {
+      text-align: center;
+      position: absolute;
+      top: 79px;
+      left: 94px; }
+      #specials .vaxtlar .vaxt h4 {
+        font-family: 'Kaushan Script', cursive;
+        line-height: normal;
+        color: #bc8d46;
+        font-size: 21px; }
+      #specials .vaxtlar .vaxt h3 {
+        font-family: 'Kaushan Script', cursive;
+        color: #222;
+        font-size: 24px; }
+      #specials .vaxtlar .vaxt p {
+        color: #9b9b9b;
+        font-family: 'Raleway', sans-serif;
+        margin-top: 18px; }
+      #specials .vaxtlar .vaxt .img img {
+        margin-bottom: 14px; }
+  #specials .circle2 {
+    position: absolute;
+    width: 70px;
+    height: 40px;
+    border-radius: 100%;
+    background-color: #fff;
+    left: 554px;
+    top: 976px; }
+
+#tastymeals {
+  margin-top: 130px;
+  font-family: 'Great Vibes', cursive; }
+  #tastymeals .tastegallery .taste {
+    text-align: center; }
+    #tastymeals .tastegallery .taste h4 {
+      font-size: 41px;
+      line-height: 1;
+      color: rgba(188, 141, 70, 0.87); }
+    #tastymeals .tastegallery .taste h1 {
+      font-size: 54px;
+      margin: 0;
+      padding-top: 7px;
+      padding-bottom: 18px; }
+    #tastymeals .tastegallery .taste p {
+      font-size: 26px;
+      line-height: 24px;
+      padding-bottom: 19px;
+      padding-top: 19px;
+      color: #9b9b9b; }
+  #tastymeals .tastegallery .gallery {
+    margin-left: 270px; }
+    #tastymeals .tastegallery .gallery .activea {
+      position: relative; }
+      #tastymeals .tastegallery .gallery .activea p {
+        color: rgba(188, 141, 70, 0.87); }
+      #tastymeals .tastegallery .gallery .activea .xet1 {
+        position: absolute;
+        width: 78px;
+        height: 1.5px;
+        background-color: rgba(188, 141, 70, 0.87);
+        display: inline-block;
+        top: 55px;
+        left: -9px; }
+    #tastymeals .tastegallery .gallery li {
+      font-family: 'Kaushan Script', cursive;
+      font-size: 24px;
+      display: inline-block;
+      list-style: none;
+      margin-left: 45px;
+      position: relative; }
+      #tastymeals .tastegallery .gallery li:hover .xet1 {
+        position: absolute;
+        width: 78px;
+        height: 1.5px;
+        background-color: rgba(188, 141, 70, 0.87);
+        display: inline-block;
+        top: 55px;
+        left: -9px;
+        opacity: 1;
+        transition: 0.4s;
+        z-index: 999; }
+      #tastymeals .tastegallery .gallery li p {
+        color: #000;
+        cursor: pointer; }
+        #tastymeals .tastegallery .gallery li p:hover {
+          color: rgba(188, 141, 70, 0.87); }
+
+#meals {
+  margin-top: 197px;
+  background-attachment: fixed;
+  background-image: url(../img/menu-bg-fixed.jpg);
+  height: 1290px;
+  position: relative; }
+  #meals .filletsclick, #meals .filletsclick2, #meals .filletsclick3, #meals .filletsclick4 {
+    position: absolute;
+    width: 100%;
+    height: 100vh;
+    background-color: black;
+    opacity: 90%;
+    top: 0;
+    left: 0;
+    display: none;
+    z-index: 15; }
+    #meals .filletsclick .foto, #meals .filletsclick2 .foto, #meals .filletsclick3 .foto, #meals .filletsclick4 .foto {
+      position: relative; }
+      #meals .filletsclick .foto .img2, #meals .filletsclick .foto .img4, #meals .filletsclick .foto .img6, #meals .filletsclick .foto .img8, #meals .filletsclick2 .foto .img2, #meals .filletsclick2 .foto .img4, #meals .filletsclick2 .foto .img6, #meals .filletsclick2 .foto .img8, #meals .filletsclick3 .foto .img2, #meals .filletsclick3 .foto .img4, #meals .filletsclick3 .foto .img6, #meals .filletsclick3 .foto .img8, #meals .filletsclick4 .foto .img2, #meals .filletsclick4 .foto .img4, #meals .filletsclick4 .foto .img6, #meals .filletsclick4 .foto .img8 {
+        position: absolute;
+        width: 741px;
+        height: 510px;
+        left: 363px;
+        top: 110px; }
+        #meals .filletsclick .foto .img2 img, #meals .filletsclick .foto .img4 img, #meals .filletsclick .foto .img6 img, #meals .filletsclick .foto .img8 img, #meals .filletsclick2 .foto .img2 img, #meals .filletsclick2 .foto .img4 img, #meals .filletsclick2 .foto .img6 img, #meals .filletsclick2 .foto .img8 img, #meals .filletsclick3 .foto .img2 img, #meals .filletsclick3 .foto .img4 img, #meals .filletsclick3 .foto .img6 img, #meals .filletsclick3 .foto .img8 img, #meals .filletsclick4 .foto .img2 img, #meals .filletsclick4 .foto .img4 img, #meals .filletsclick4 .foto .img6 img, #meals .filletsclick4 .foto .img8 img {
+          width: 100%;
+          height: 100%; }
+        #meals .filletsclick .foto .img2 .imgtx, #meals .filletsclick .foto .img4 .imgtx, #meals .filletsclick .foto .img6 .imgtx, #meals .filletsclick .foto .img8 .imgtx, #meals .filletsclick2 .foto .img2 .imgtx, #meals .filletsclick2 .foto .img4 .imgtx, #meals .filletsclick2 .foto .img6 .imgtx, #meals .filletsclick2 .foto .img8 .imgtx, #meals .filletsclick3 .foto .img2 .imgtx, #meals .filletsclick3 .foto .img4 .imgtx, #meals .filletsclick3 .foto .img6 .imgtx, #meals .filletsclick3 .foto .img8 .imgtx, #meals .filletsclick4 .foto .img2 .imgtx, #meals .filletsclick4 .foto .img4 .imgtx, #meals .filletsclick4 .foto .img6 .imgtx, #meals .filletsclick4 .foto .img8 .imgtx {
+          text-align: center;
+          position: absolute;
+          top: 363px;
+          left: 291px; }
+          #meals .filletsclick .foto .img2 .imgtx h4, #meals .filletsclick .foto .img4 .imgtx h4, #meals .filletsclick .foto .img6 .imgtx h4, #meals .filletsclick .foto .img8 .imgtx h4, #meals .filletsclick2 .foto .img2 .imgtx h4, #meals .filletsclick2 .foto .img4 .imgtx h4, #meals .filletsclick2 .foto .img6 .imgtx h4, #meals .filletsclick2 .foto .img8 .imgtx h4, #meals .filletsclick3 .foto .img2 .imgtx h4, #meals .filletsclick3 .foto .img4 .imgtx h4, #meals .filletsclick3 .foto .img6 .imgtx h4, #meals .filletsclick3 .foto .img8 .imgtx h4, #meals .filletsclick4 .foto .img2 .imgtx h4, #meals .filletsclick4 .foto .img4 .imgtx h4, #meals .filletsclick4 .foto .img6 .imgtx h4, #meals .filletsclick4 .foto .img8 .imgtx h4 {
+            color: #bc8d46;
+            font-family: 'Kaushan Script', cursive;
+            padding-top: 48px; }
+          #meals .filletsclick .foto .img2 .imgtx h3, #meals .filletsclick .foto .img4 .imgtx h3, #meals .filletsclick .foto .img6 .imgtx h3, #meals .filletsclick .foto .img8 .imgtx h3, #meals .filletsclick2 .foto .img2 .imgtx h3, #meals .filletsclick2 .foto .img4 .imgtx h3, #meals .filletsclick2 .foto .img6 .imgtx h3, #meals .filletsclick2 .foto .img8 .imgtx h3, #meals .filletsclick3 .foto .img2 .imgtx h3, #meals .filletsclick3 .foto .img4 .imgtx h3, #meals .filletsclick3 .foto .img6 .imgtx h3, #meals .filletsclick3 .foto .img8 .imgtx h3, #meals .filletsclick4 .foto .img2 .imgtx h3, #meals .filletsclick4 .foto .img4 .imgtx h3, #meals .filletsclick4 .foto .img6 .imgtx h3, #meals .filletsclick4 .foto .img8 .imgtx h3 {
+            color: #fff;
+            font-family: 'Kaushan Script', cursive; }
+      #meals .filletsclick .foto i, #meals .filletsclick2 .foto i, #meals .filletsclick3 .foto i, #meals .filletsclick4 .foto i {
+        position: absolute;
+        border-radius: 2px;
+        height: 30px;
+        line-height: 30px;
+        right: 431px;
+        text-align: center;
+        top: 125px;
+        width: 30px;
+        background-color: #bc8d46;
+        color: #fff; }
+  #meals .filletgosder, #meals .filletgosder2, #meals .filletgosder3, #meals .filletgosder4 {
+    display: block;
+    position: fixed;
+    top: 0;
+    left: 0; }
+  #meals .paellasclick, #meals .paellasclick2, #meals .paellasclick3, #meals .paellasclick4 {
+    position: absolute;
+    width: 100%;
+    height: 100vh;
+    background-color: black;
+    opacity: 90%;
+    top: 0;
+    left: 0;
+    display: none;
+    z-index: 15; }
+    #meals .paellasclick .foto, #meals .paellasclick2 .foto, #meals .paellasclick3 .foto, #meals .paellasclick4 .foto {
+      position: relative; }
+      #meals .paellasclick .foto .img2, #meals .paellasclick .foto .img4, #meals .paellasclick .foto .img6, #meals .paellasclick .foto .img8, #meals .paellasclick2 .foto .img2, #meals .paellasclick2 .foto .img4, #meals .paellasclick2 .foto .img6, #meals .paellasclick2 .foto .img8, #meals .paellasclick3 .foto .img2, #meals .paellasclick3 .foto .img4, #meals .paellasclick3 .foto .img6, #meals .paellasclick3 .foto .img8, #meals .paellasclick4 .foto .img2, #meals .paellasclick4 .foto .img4, #meals .paellasclick4 .foto .img6, #meals .paellasclick4 .foto .img8 {
+        position: absolute;
+        width: 741px;
+        height: 510px;
+        left: 363px;
+        top: 110px; }
+        #meals .paellasclick .foto .img2 img, #meals .paellasclick .foto .img4 img, #meals .paellasclick .foto .img6 img, #meals .paellasclick .foto .img8 img, #meals .paellasclick2 .foto .img2 img, #meals .paellasclick2 .foto .img4 img, #meals .paellasclick2 .foto .img6 img, #meals .paellasclick2 .foto .img8 img, #meals .paellasclick3 .foto .img2 img, #meals .paellasclick3 .foto .img4 img, #meals .paellasclick3 .foto .img6 img, #meals .paellasclick3 .foto .img8 img, #meals .paellasclick4 .foto .img2 img, #meals .paellasclick4 .foto .img4 img, #meals .paellasclick4 .foto .img6 img, #meals .paellasclick4 .foto .img8 img {
+          width: 100%;
+          height: 100%; }
+        #meals .paellasclick .foto .img2 .imgtx, #meals .paellasclick .foto .img4 .imgtx, #meals .paellasclick .foto .img6 .imgtx, #meals .paellasclick .foto .img8 .imgtx, #meals .paellasclick2 .foto .img2 .imgtx, #meals .paellasclick2 .foto .img4 .imgtx, #meals .paellasclick2 .foto .img6 .imgtx, #meals .paellasclick2 .foto .img8 .imgtx, #meals .paellasclick3 .foto .img2 .imgtx, #meals .paellasclick3 .foto .img4 .imgtx, #meals .paellasclick3 .foto .img6 .imgtx, #meals .paellasclick3 .foto .img8 .imgtx, #meals .paellasclick4 .foto .img2 .imgtx, #meals .paellasclick4 .foto .img4 .imgtx, #meals .paellasclick4 .foto .img6 .imgtx, #meals .paellasclick4 .foto .img8 .imgtx {
+          text-align: center;
+          position: absolute;
+          top: 363px;
+          left: 291px; }
+          #meals .paellasclick .foto .img2 .imgtx h4, #meals .paellasclick .foto .img4 .imgtx h4, #meals .paellasclick .foto .img6 .imgtx h4, #meals .paellasclick .foto .img8 .imgtx h4, #meals .paellasclick2 .foto .img2 .imgtx h4, #meals .paellasclick2 .foto .img4 .imgtx h4, #meals .paellasclick2 .foto .img6 .imgtx h4, #meals .paellasclick2 .foto .img8 .imgtx h4, #meals .paellasclick3 .foto .img2 .imgtx h4, #meals .paellasclick3 .foto .img4 .imgtx h4, #meals .paellasclick3 .foto .img6 .imgtx h4, #meals .paellasclick3 .foto .img8 .imgtx h4, #meals .paellasclick4 .foto .img2 .imgtx h4, #meals .paellasclick4 .foto .img4 .imgtx h4, #meals .paellasclick4 .foto .img6 .imgtx h4, #meals .paellasclick4 .foto .img8 .imgtx h4 {
+            color: #bc8d46;
+            font-family: 'Kaushan Script', cursive;
+            padding-top: 48px; }
+          #meals .paellasclick .foto .img2 .imgtx h3, #meals .paellasclick .foto .img4 .imgtx h3, #meals .paellasclick .foto .img6 .imgtx h3, #meals .paellasclick .foto .img8 .imgtx h3, #meals .paellasclick2 .foto .img2 .imgtx h3, #meals .paellasclick2 .foto .img4 .imgtx h3, #meals .paellasclick2 .foto .img6 .imgtx h3, #meals .paellasclick2 .foto .img8 .imgtx h3, #meals .paellasclick3 .foto .img2 .imgtx h3, #meals .paellasclick3 .foto .img4 .imgtx h3, #meals .paellasclick3 .foto .img6 .imgtx h3, #meals .paellasclick3 .foto .img8 .imgtx h3, #meals .paellasclick4 .foto .img2 .imgtx h3, #meals .paellasclick4 .foto .img4 .imgtx h3, #meals .paellasclick4 .foto .img6 .imgtx h3, #meals .paellasclick4 .foto .img8 .imgtx h3 {
+            color: #fff;
+            font-family: 'Kaushan Script', cursive; }
+      #meals .paellasclick .foto i, #meals .paellasclick2 .foto i, #meals .paellasclick3 .foto i, #meals .paellasclick4 .foto i {
+        position: absolute;
+        border-radius: 2px;
+        height: 30px;
+        line-height: 30px;
+        right: 431px;
+        text-align: center;
+        top: 125px;
+        width: 30px;
+        background-color: #bc8d46;
+        color: #fff; }
+  #meals .paellagosder, #meals .paellagosder2, #meals .paellagosder3, #meals .paellagosder4 {
+    display: block;
+    position: fixed;
+    top: 0;
+    left: 0; }
+  #meals .breastsclick, #meals .breastsclick2, #meals .breastsclick3, #meals .breastsclick4 {
+    position: absolute;
+    width: 100%;
+    height: 100vh;
+    background-color: black;
+    opacity: 90%;
+    top: 0;
+    left: 0;
+    display: none;
+    z-index: 15; }
+    #meals .breastsclick .foto, #meals .breastsclick2 .foto, #meals .breastsclick3 .foto, #meals .breastsclick4 .foto {
+      position: relative; }
+      #meals .breastsclick .foto .img2, #meals .breastsclick .foto .img4, #meals .breastsclick .foto .img6, #meals .breastsclick .foto .img8, #meals .breastsclick2 .foto .img2, #meals .breastsclick2 .foto .img4, #meals .breastsclick2 .foto .img6, #meals .breastsclick2 .foto .img8, #meals .breastsclick3 .foto .img2, #meals .breastsclick3 .foto .img4, #meals .breastsclick3 .foto .img6, #meals .breastsclick3 .foto .img8, #meals .breastsclick4 .foto .img2, #meals .breastsclick4 .foto .img4, #meals .breastsclick4 .foto .img6, #meals .breastsclick4 .foto .img8 {
+        position: absolute;
+        width: 741px;
+        height: 510px;
+        left: 363px;
+        top: 110px; }
+        #meals .breastsclick .foto .img2 img, #meals .breastsclick .foto .img4 img, #meals .breastsclick .foto .img6 img, #meals .breastsclick .foto .img8 img, #meals .breastsclick2 .foto .img2 img, #meals .breastsclick2 .foto .img4 img, #meals .breastsclick2 .foto .img6 img, #meals .breastsclick2 .foto .img8 img, #meals .breastsclick3 .foto .img2 img, #meals .breastsclick3 .foto .img4 img, #meals .breastsclick3 .foto .img6 img, #meals .breastsclick3 .foto .img8 img, #meals .breastsclick4 .foto .img2 img, #meals .breastsclick4 .foto .img4 img, #meals .breastsclick4 .foto .img6 img, #meals .breastsclick4 .foto .img8 img {
+          width: 100%;
+          height: 100%; }
+        #meals .breastsclick .foto .img2 .imgtx, #meals .breastsclick .foto .img4 .imgtx, #meals .breastsclick .foto .img6 .imgtx, #meals .breastsclick .foto .img8 .imgtx, #meals .breastsclick2 .foto .img2 .imgtx, #meals .breastsclick2 .foto .img4 .imgtx, #meals .breastsclick2 .foto .img6 .imgtx, #meals .breastsclick2 .foto .img8 .imgtx, #meals .breastsclick3 .foto .img2 .imgtx, #meals .breastsclick3 .foto .img4 .imgtx, #meals .breastsclick3 .foto .img6 .imgtx, #meals .breastsclick3 .foto .img8 .imgtx, #meals .breastsclick4 .foto .img2 .imgtx, #meals .breastsclick4 .foto .img4 .imgtx, #meals .breastsclick4 .foto .img6 .imgtx, #meals .breastsclick4 .foto .img8 .imgtx {
+          text-align: center;
+          position: absolute;
+          top: 363px;
+          left: 291px; }
+          #meals .breastsclick .foto .img2 .imgtx h4, #meals .breastsclick .foto .img4 .imgtx h4, #meals .breastsclick .foto .img6 .imgtx h4, #meals .breastsclick .foto .img8 .imgtx h4, #meals .breastsclick2 .foto .img2 .imgtx h4, #meals .breastsclick2 .foto .img4 .imgtx h4, #meals .breastsclick2 .foto .img6 .imgtx h4, #meals .breastsclick2 .foto .img8 .imgtx h4, #meals .breastsclick3 .foto .img2 .imgtx h4, #meals .breastsclick3 .foto .img4 .imgtx h4, #meals .breastsclick3 .foto .img6 .imgtx h4, #meals .breastsclick3 .foto .img8 .imgtx h4, #meals .breastsclick4 .foto .img2 .imgtx h4, #meals .breastsclick4 .foto .img4 .imgtx h4, #meals .breastsclick4 .foto .img6 .imgtx h4, #meals .breastsclick4 .foto .img8 .imgtx h4 {
+            color: #bc8d46;
+            font-family: 'Kaushan Script', cursive;
+            padding-top: 48px; }
+          #meals .breastsclick .foto .img2 .imgtx h3, #meals .breastsclick .foto .img4 .imgtx h3, #meals .breastsclick .foto .img6 .imgtx h3, #meals .breastsclick .foto .img8 .imgtx h3, #meals .breastsclick2 .foto .img2 .imgtx h3, #meals .breastsclick2 .foto .img4 .imgtx h3, #meals .breastsclick2 .foto .img6 .imgtx h3, #meals .breastsclick2 .foto .img8 .imgtx h3, #meals .breastsclick3 .foto .img2 .imgtx h3, #meals .breastsclick3 .foto .img4 .imgtx h3, #meals .breastsclick3 .foto .img6 .imgtx h3, #meals .breastsclick3 .foto .img8 .imgtx h3, #meals .breastsclick4 .foto .img2 .imgtx h3, #meals .breastsclick4 .foto .img4 .imgtx h3, #meals .breastsclick4 .foto .img6 .imgtx h3, #meals .breastsclick4 .foto .img8 .imgtx h3 {
+            color: #fff;
+            font-family: 'Kaushan Script', cursive; }
+      #meals .breastsclick .foto i, #meals .breastsclick2 .foto i, #meals .breastsclick3 .foto i, #meals .breastsclick4 .foto i {
+        position: absolute;
+        border-radius: 2px;
+        height: 30px;
+        line-height: 30px;
+        right: 431px;
+        text-align: center;
+        top: 125px;
+        width: 30px;
+        background-color: #bc8d46;
+        color: #fff; }
+  #meals .breastgosder, #meals .breastgosder2, #meals .breastgosder3, #meals .breastgosder4 {
+    display: block;
+    position: fixed;
+    top: 0;
+    left: 0; }
+  #meals .seasclick, #meals .seasclick2, #meals .seasclick3, #meals .seasclick4 {
+    position: absolute;
+    width: 100%;
+    height: 100vh;
+    background-color: black;
+    opacity: 90%;
+    top: 0;
+    left: 0;
+    display: none;
+    z-index: 15; }
+    #meals .seasclick .foto, #meals .seasclick2 .foto, #meals .seasclick3 .foto, #meals .seasclick4 .foto {
+      position: relative; }
+      #meals .seasclick .foto .img2, #meals .seasclick .foto .img4, #meals .seasclick .foto .img6, #meals .seasclick .foto .img8, #meals .seasclick2 .foto .img2, #meals .seasclick2 .foto .img4, #meals .seasclick2 .foto .img6, #meals .seasclick2 .foto .img8, #meals .seasclick3 .foto .img2, #meals .seasclick3 .foto .img4, #meals .seasclick3 .foto .img6, #meals .seasclick3 .foto .img8, #meals .seasclick4 .foto .img2, #meals .seasclick4 .foto .img4, #meals .seasclick4 .foto .img6, #meals .seasclick4 .foto .img8 {
+        position: absolute;
+        width: 741px;
+        height: 510px;
+        left: 363px;
+        top: 110px; }
+        #meals .seasclick .foto .img2 img, #meals .seasclick .foto .img4 img, #meals .seasclick .foto .img6 img, #meals .seasclick .foto .img8 img, #meals .seasclick2 .foto .img2 img, #meals .seasclick2 .foto .img4 img, #meals .seasclick2 .foto .img6 img, #meals .seasclick2 .foto .img8 img, #meals .seasclick3 .foto .img2 img, #meals .seasclick3 .foto .img4 img, #meals .seasclick3 .foto .img6 img, #meals .seasclick3 .foto .img8 img, #meals .seasclick4 .foto .img2 img, #meals .seasclick4 .foto .img4 img, #meals .seasclick4 .foto .img6 img, #meals .seasclick4 .foto .img8 img {
+          width: 100%;
+          height: 100%; }
+        #meals .seasclick .foto .img2 .imgtx, #meals .seasclick .foto .img4 .imgtx, #meals .seasclick .foto .img6 .imgtx, #meals .seasclick .foto .img8 .imgtx, #meals .seasclick2 .foto .img2 .imgtx, #meals .seasclick2 .foto .img4 .imgtx, #meals .seasclick2 .foto .img6 .imgtx, #meals .seasclick2 .foto .img8 .imgtx, #meals .seasclick3 .foto .img2 .imgtx, #meals .seasclick3 .foto .img4 .imgtx, #meals .seasclick3 .foto .img6 .imgtx, #meals .seasclick3 .foto .img8 .imgtx, #meals .seasclick4 .foto .img2 .imgtx, #meals .seasclick4 .foto .img4 .imgtx, #meals .seasclick4 .foto .img6 .imgtx, #meals .seasclick4 .foto .img8 .imgtx {
+          text-align: center;
+          position: absolute;
+          top: 363px;
+          left: 291px; }
+          #meals .seasclick .foto .img2 .imgtx h4, #meals .seasclick .foto .img4 .imgtx h4, #meals .seasclick .foto .img6 .imgtx h4, #meals .seasclick .foto .img8 .imgtx h4, #meals .seasclick2 .foto .img2 .imgtx h4, #meals .seasclick2 .foto .img4 .imgtx h4, #meals .seasclick2 .foto .img6 .imgtx h4, #meals .seasclick2 .foto .img8 .imgtx h4, #meals .seasclick3 .foto .img2 .imgtx h4, #meals .seasclick3 .foto .img4 .imgtx h4, #meals .seasclick3 .foto .img6 .imgtx h4, #meals .seasclick3 .foto .img8 .imgtx h4, #meals .seasclick4 .foto .img2 .imgtx h4, #meals .seasclick4 .foto .img4 .imgtx h4, #meals .seasclick4 .foto .img6 .imgtx h4, #meals .seasclick4 .foto .img8 .imgtx h4 {
+            color: #bc8d46;
+            font-family: 'Kaushan Script', cursive;
+            padding-top: 48px; }
+          #meals .seasclick .foto .img2 .imgtx h3, #meals .seasclick .foto .img4 .imgtx h3, #meals .seasclick .foto .img6 .imgtx h3, #meals .seasclick .foto .img8 .imgtx h3, #meals .seasclick2 .foto .img2 .imgtx h3, #meals .seasclick2 .foto .img4 .imgtx h3, #meals .seasclick2 .foto .img6 .imgtx h3, #meals .seasclick2 .foto .img8 .imgtx h3, #meals .seasclick3 .foto .img2 .imgtx h3, #meals .seasclick3 .foto .img4 .imgtx h3, #meals .seasclick3 .foto .img6 .imgtx h3, #meals .seasclick3 .foto .img8 .imgtx h3, #meals .seasclick4 .foto .img2 .imgtx h3, #meals .seasclick4 .foto .img4 .imgtx h3, #meals .seasclick4 .foto .img6 .imgtx h3, #meals .seasclick4 .foto .img8 .imgtx h3 {
+            color: #fff;
+            font-family: 'Kaushan Script', cursive; }
+      #meals .seasclick .foto i, #meals .seasclick2 .foto i, #meals .seasclick3 .foto i, #meals .seasclick4 .foto i {
+        position: absolute;
+        border-radius: 2px;
+        height: 30px;
+        line-height: 30px;
+        right: 431px;
+        text-align: center;
+        top: 125px;
+        width: 30px;
+        background-color: #bc8d46;
+        color: #fff; }
+  #meals .seagosder, #meals .seagosder2, #meals .seagosder3, #meals .seagosder4 {
+    display: block;
+    position: fixed;
+    top: 0;
+    left: 0; }
+  #meals .paprikasclick, #meals .paprikasclick2, #meals .paprikasclick3, #meals .paprikasclick4 {
+    position: absolute;
+    width: 100%;
+    height: 100vh;
+    background-color: black;
+    opacity: 90%;
+    top: 0;
+    left: 0;
+    display: none;
+    z-index: 15; }
+    #meals .paprikasclick .foto, #meals .paprikasclick2 .foto, #meals .paprikasclick3 .foto, #meals .paprikasclick4 .foto {
+      position: relative; }
+      #meals .paprikasclick .foto .img2, #meals .paprikasclick .foto .img4, #meals .paprikasclick .foto .img6, #meals .paprikasclick .foto .img8, #meals .paprikasclick2 .foto .img2, #meals .paprikasclick2 .foto .img4, #meals .paprikasclick2 .foto .img6, #meals .paprikasclick2 .foto .img8, #meals .paprikasclick3 .foto .img2, #meals .paprikasclick3 .foto .img4, #meals .paprikasclick3 .foto .img6, #meals .paprikasclick3 .foto .img8, #meals .paprikasclick4 .foto .img2, #meals .paprikasclick4 .foto .img4, #meals .paprikasclick4 .foto .img6, #meals .paprikasclick4 .foto .img8 {
+        position: absolute;
+        width: 741px;
+        height: 510px;
+        left: 363px;
+        top: 110px; }
+        #meals .paprikasclick .foto .img2 img, #meals .paprikasclick .foto .img4 img, #meals .paprikasclick .foto .img6 img, #meals .paprikasclick .foto .img8 img, #meals .paprikasclick2 .foto .img2 img, #meals .paprikasclick2 .foto .img4 img, #meals .paprikasclick2 .foto .img6 img, #meals .paprikasclick2 .foto .img8 img, #meals .paprikasclick3 .foto .img2 img, #meals .paprikasclick3 .foto .img4 img, #meals .paprikasclick3 .foto .img6 img, #meals .paprikasclick3 .foto .img8 img, #meals .paprikasclick4 .foto .img2 img, #meals .paprikasclick4 .foto .img4 img, #meals .paprikasclick4 .foto .img6 img, #meals .paprikasclick4 .foto .img8 img {
+          width: 100%;
+          height: 100%; }
+        #meals .paprikasclick .foto .img2 .imgtx, #meals .paprikasclick .foto .img4 .imgtx, #meals .paprikasclick .foto .img6 .imgtx, #meals .paprikasclick .foto .img8 .imgtx, #meals .paprikasclick2 .foto .img2 .imgtx, #meals .paprikasclick2 .foto .img4 .imgtx, #meals .paprikasclick2 .foto .img6 .imgtx, #meals .paprikasclick2 .foto .img8 .imgtx, #meals .paprikasclick3 .foto .img2 .imgtx, #meals .paprikasclick3 .foto .img4 .imgtx, #meals .paprikasclick3 .foto .img6 .imgtx, #meals .paprikasclick3 .foto .img8 .imgtx, #meals .paprikasclick4 .foto .img2 .imgtx, #meals .paprikasclick4 .foto .img4 .imgtx, #meals .paprikasclick4 .foto .img6 .imgtx, #meals .paprikasclick4 .foto .img8 .imgtx {
+          text-align: center;
+          position: absolute;
+          top: 363px;
+          left: 291px; }
+          #meals .paprikasclick .foto .img2 .imgtx h4, #meals .paprikasclick .foto .img4 .imgtx h4, #meals .paprikasclick .foto .img6 .imgtx h4, #meals .paprikasclick .foto .img8 .imgtx h4, #meals .paprikasclick2 .foto .img2 .imgtx h4, #meals .paprikasclick2 .foto .img4 .imgtx h4, #meals .paprikasclick2 .foto .img6 .imgtx h4, #meals .paprikasclick2 .foto .img8 .imgtx h4, #meals .paprikasclick3 .foto .img2 .imgtx h4, #meals .paprikasclick3 .foto .img4 .imgtx h4, #meals .paprikasclick3 .foto .img6 .imgtx h4, #meals .paprikasclick3 .foto .img8 .imgtx h4, #meals .paprikasclick4 .foto .img2 .imgtx h4, #meals .paprikasclick4 .foto .img4 .imgtx h4, #meals .paprikasclick4 .foto .img6 .imgtx h4, #meals .paprikasclick4 .foto .img8 .imgtx h4 {
+            color: #bc8d46;
+            font-family: 'Kaushan Script', cursive;
+            padding-top: 48px; }
+          #meals .paprikasclick .foto .img2 .imgtx h3, #meals .paprikasclick .foto .img4 .imgtx h3, #meals .paprikasclick .foto .img6 .imgtx h3, #meals .paprikasclick .foto .img8 .imgtx h3, #meals .paprikasclick2 .foto .img2 .imgtx h3, #meals .paprikasclick2 .foto .img4 .imgtx h3, #meals .paprikasclick2 .foto .img6 .imgtx h3, #meals .paprikasclick2 .foto .img8 .imgtx h3, #meals .paprikasclick3 .foto .img2 .imgtx h3, #meals .paprikasclick3 .foto .img4 .imgtx h3, #meals .paprikasclick3 .foto .img6 .imgtx h3, #meals .paprikasclick3 .foto .img8 .imgtx h3, #meals .paprikasclick4 .foto .img2 .imgtx h3, #meals .paprikasclick4 .foto .img4 .imgtx h3, #meals .paprikasclick4 .foto .img6 .imgtx h3, #meals .paprikasclick4 .foto .img8 .imgtx h3 {
+            color: #fff;
+            font-family: 'Kaushan Script', cursive; }
+      #meals .paprikasclick .foto i, #meals .paprikasclick2 .foto i, #meals .paprikasclick3 .foto i, #meals .paprikasclick4 .foto i {
+        position: absolute;
+        border-radius: 2px;
+        height: 30px;
+        line-height: 30px;
+        right: 431px;
+        text-align: center;
+        top: 125px;
+        width: 30px;
+        background-color: #bc8d46;
+        color: #fff; }
+  #meals .paprikagosder, #meals .paprikagosder2, #meals .paprikagosder3, #meals .paprikagosder4 {
+    display: block;
+    position: fixed;
+    top: 0;
+    left: 0; }
+  #meals .steaksclick, #meals .steaksclick2, #meals .steaksclick3, #meals .steaksclick4 {
+    position: absolute;
+    width: 100%;
+    height: 100vh;
+    background-color: black;
+    opacity: 90%;
+    top: 0;
+    left: 0;
+    display: none;
+    z-index: 15; }
+    #meals .steaksclick .foto, #meals .steaksclick2 .foto, #meals .steaksclick3 .foto, #meals .steaksclick4 .foto {
+      position: relative; }
+      #meals .steaksclick .foto .img2, #meals .steaksclick .foto .img4, #meals .steaksclick .foto .img6, #meals .steaksclick .foto .img8, #meals .steaksclick2 .foto .img2, #meals .steaksclick2 .foto .img4, #meals .steaksclick2 .foto .img6, #meals .steaksclick2 .foto .img8, #meals .steaksclick3 .foto .img2, #meals .steaksclick3 .foto .img4, #meals .steaksclick3 .foto .img6, #meals .steaksclick3 .foto .img8, #meals .steaksclick4 .foto .img2, #meals .steaksclick4 .foto .img4, #meals .steaksclick4 .foto .img6, #meals .steaksclick4 .foto .img8 {
+        position: absolute;
+        width: 741px;
+        height: 510px;
+        left: 363px;
+        top: 110px; }
+        #meals .steaksclick .foto .img2 img, #meals .steaksclick .foto .img4 img, #meals .steaksclick .foto .img6 img, #meals .steaksclick .foto .img8 img, #meals .steaksclick2 .foto .img2 img, #meals .steaksclick2 .foto .img4 img, #meals .steaksclick2 .foto .img6 img, #meals .steaksclick2 .foto .img8 img, #meals .steaksclick3 .foto .img2 img, #meals .steaksclick3 .foto .img4 img, #meals .steaksclick3 .foto .img6 img, #meals .steaksclick3 .foto .img8 img, #meals .steaksclick4 .foto .img2 img, #meals .steaksclick4 .foto .img4 img, #meals .steaksclick4 .foto .img6 img, #meals .steaksclick4 .foto .img8 img {
+          width: 100%;
+          height: 100%; }
+        #meals .steaksclick .foto .img2 .imgtx, #meals .steaksclick .foto .img4 .imgtx, #meals .steaksclick .foto .img6 .imgtx, #meals .steaksclick .foto .img8 .imgtx, #meals .steaksclick2 .foto .img2 .imgtx, #meals .steaksclick2 .foto .img4 .imgtx, #meals .steaksclick2 .foto .img6 .imgtx, #meals .steaksclick2 .foto .img8 .imgtx, #meals .steaksclick3 .foto .img2 .imgtx, #meals .steaksclick3 .foto .img4 .imgtx, #meals .steaksclick3 .foto .img6 .imgtx, #meals .steaksclick3 .foto .img8 .imgtx, #meals .steaksclick4 .foto .img2 .imgtx, #meals .steaksclick4 .foto .img4 .imgtx, #meals .steaksclick4 .foto .img6 .imgtx, #meals .steaksclick4 .foto .img8 .imgtx {
+          text-align: center;
+          position: absolute;
+          top: 363px;
+          left: 291px; }
+          #meals .steaksclick .foto .img2 .imgtx h4, #meals .steaksclick .foto .img4 .imgtx h4, #meals .steaksclick .foto .img6 .imgtx h4, #meals .steaksclick .foto .img8 .imgtx h4, #meals .steaksclick2 .foto .img2 .imgtx h4, #meals .steaksclick2 .foto .img4 .imgtx h4, #meals .steaksclick2 .foto .img6 .imgtx h4, #meals .steaksclick2 .foto .img8 .imgtx h4, #meals .steaksclick3 .foto .img2 .imgtx h4, #meals .steaksclick3 .foto .img4 .imgtx h4, #meals .steaksclick3 .foto .img6 .imgtx h4, #meals .steaksclick3 .foto .img8 .imgtx h4, #meals .steaksclick4 .foto .img2 .imgtx h4, #meals .steaksclick4 .foto .img4 .imgtx h4, #meals .steaksclick4 .foto .img6 .imgtx h4, #meals .steaksclick4 .foto .img8 .imgtx h4 {
+            color: #bc8d46;
+            font-family: 'Kaushan Script', cursive;
+            padding-top: 48px; }
+          #meals .steaksclick .foto .img2 .imgtx h3, #meals .steaksclick .foto .img4 .imgtx h3, #meals .steaksclick .foto .img6 .imgtx h3, #meals .steaksclick .foto .img8 .imgtx h3, #meals .steaksclick2 .foto .img2 .imgtx h3, #meals .steaksclick2 .foto .img4 .imgtx h3, #meals .steaksclick2 .foto .img6 .imgtx h3, #meals .steaksclick2 .foto .img8 .imgtx h3, #meals .steaksclick3 .foto .img2 .imgtx h3, #meals .steaksclick3 .foto .img4 .imgtx h3, #meals .steaksclick3 .foto .img6 .imgtx h3, #meals .steaksclick3 .foto .img8 .imgtx h3, #meals .steaksclick4 .foto .img2 .imgtx h3, #meals .steaksclick4 .foto .img4 .imgtx h3, #meals .steaksclick4 .foto .img6 .imgtx h3, #meals .steaksclick4 .foto .img8 .imgtx h3 {
+            color: #fff;
+            font-family: 'Kaushan Script', cursive; }
+      #meals .steaksclick .foto i, #meals .steaksclick2 .foto i, #meals .steaksclick3 .foto i, #meals .steaksclick4 .foto i {
+        position: absolute;
+        border-radius: 2px;
+        height: 30px;
+        line-height: 30px;
+        right: 431px;
+        text-align: center;
+        top: 125px;
+        width: 30px;
+        background-color: #bc8d46;
+        color: #fff; }
+  #meals .steakgosder, #meals .steakgosder2, #meals .steakgosder3, #meals .steakgosder4 {
+    display: block;
+    position: fixed;
+    top: 0;
+    left: 0; }
+  #meals .meal1, #meals .meal2, #meals .meal3, #meals .meal4 {
+    display: none;
+    position: absolute;
+    top: -136px;
+    left: 177px; }
+    #meals .meal1 .fillet, #meals .meal2 .fillet, #meals .meal3 .fillet, #meals .meal4 .fillet {
+      position: relative; }
+      #meals .meal1 .fillet .metn, #meals .meal2 .fillet .metn, #meals .meal3 .fillet .metn, #meals .meal4 .fillet .metn {
+        box-shadow: 0 0 20px rgba(0, 0, 0, 0.12);
+        height: 390px;
+        background-color: #fff;
+        text-align: center;
+        width: 380px; }
+        #meals .meal1 .fillet .metn h4, #meals .meal2 .fillet .metn h4, #meals .meal3 .fillet .metn h4, #meals .meal4 .fillet .metn h4 {
+          font-size: 20px;
+          color: #bc8d46;
+          font-family: 'Kaushan Script', cursive;
+          padding-top: 48px; }
+        #meals .meal1 .fillet .metn h3, #meals .meal2 .fillet .metn h3, #meals .meal3 .fillet .metn h3, #meals .meal4 .fillet .metn h3 {
+          font-size: 24px;
+          color: #222;
+          font-family: 'Kaushan Script', cursive; }
+        #meals .meal1 .fillet .metn .img1 img, #meals .meal2 .fillet .metn .img1 img, #meals .meal3 .fillet .metn .img1 img, #meals .meal4 .fillet .metn .img1 img {
+          margin-bottom: 16px;
+          margin-top: 10px; }
+        #meals .meal1 .fillet .metn p, #meals .meal2 .fillet .metn p, #meals .meal3 .fillet .metn p, #meals .meal4 .fillet .metn p {
+          color: #9b9b9b;
+          font-family: 'Raleway', sans-serif; }
+      #meals .meal1 .fillet .filletimg, #meals .meal1 .fillet .filletimg2, #meals .meal1 .fillet .filletimg3, #meals .meal1 .fillet .filletimg4, #meals .meal2 .fillet .filletimg, #meals .meal2 .fillet .filletimg2, #meals .meal2 .fillet .filletimg3, #meals .meal2 .fillet .filletimg4, #meals .meal3 .fillet .filletimg, #meals .meal3 .fillet .filletimg2, #meals .meal3 .fillet .filletimg3, #meals .meal3 .fillet .filletimg4, #meals .meal4 .fillet .filletimg, #meals .meal4 .fillet .filletimg2, #meals .meal4 .fillet .filletimg3, #meals .meal4 .fillet .filletimg4 {
+        height: 390px;
+        width: 380px;
+        position: relative; }
+        #meals .meal1 .fillet .filletimg:hover .imgop, #meals .meal1 .fillet .filletimg2:hover .imgop, #meals .meal1 .fillet .filletimg3:hover .imgop, #meals .meal1 .fillet .filletimg4:hover .imgop, #meals .meal2 .fillet .filletimg:hover .imgop, #meals .meal2 .fillet .filletimg2:hover .imgop, #meals .meal2 .fillet .filletimg3:hover .imgop, #meals .meal2 .fillet .filletimg4:hover .imgop, #meals .meal3 .fillet .filletimg:hover .imgop, #meals .meal3 .fillet .filletimg2:hover .imgop, #meals .meal3 .fillet .filletimg3:hover .imgop, #meals .meal3 .fillet .filletimg4:hover .imgop, #meals .meal4 .fillet .filletimg:hover .imgop, #meals .meal4 .fillet .filletimg2:hover .imgop, #meals .meal4 .fillet .filletimg3:hover .imgop, #meals .meal4 .fillet .filletimg4:hover .imgop {
+          opacity: 40%; }
+        #meals .meal1 .fillet .filletimg:hover i, #meals .meal1 .fillet .filletimg2:hover i, #meals .meal1 .fillet .filletimg3:hover i, #meals .meal1 .fillet .filletimg4:hover i, #meals .meal2 .fillet .filletimg:hover i, #meals .meal2 .fillet .filletimg2:hover i, #meals .meal2 .fillet .filletimg3:hover i, #meals .meal2 .fillet .filletimg4:hover i, #meals .meal3 .fillet .filletimg:hover i, #meals .meal3 .fillet .filletimg2:hover i, #meals .meal3 .fillet .filletimg3:hover i, #meals .meal3 .fillet .filletimg4:hover i, #meals .meal4 .fillet .filletimg:hover i, #meals .meal4 .fillet .filletimg2:hover i, #meals .meal4 .fillet .filletimg3:hover i, #meals .meal4 .fillet .filletimg4:hover i {
+          opacity: 1; }
+        #meals .meal1 .fillet .filletimg img, #meals .meal1 .fillet .filletimg2 img, #meals .meal1 .fillet .filletimg3 img, #meals .meal1 .fillet .filletimg4 img, #meals .meal2 .fillet .filletimg img, #meals .meal2 .fillet .filletimg2 img, #meals .meal2 .fillet .filletimg3 img, #meals .meal2 .fillet .filletimg4 img, #meals .meal3 .fillet .filletimg img, #meals .meal3 .fillet .filletimg2 img, #meals .meal3 .fillet .filletimg3 img, #meals .meal3 .fillet .filletimg4 img, #meals .meal4 .fillet .filletimg img, #meals .meal4 .fillet .filletimg2 img, #meals .meal4 .fillet .filletimg3 img, #meals .meal4 .fillet .filletimg4 img {
+          width: 100%;
+          height: 100%; }
+        #meals .meal1 .fillet .filletimg i, #meals .meal1 .fillet .filletimg2 i, #meals .meal1 .fillet .filletimg3 i, #meals .meal1 .fillet .filletimg4 i, #meals .meal2 .fillet .filletimg i, #meals .meal2 .fillet .filletimg2 i, #meals .meal2 .fillet .filletimg3 i, #meals .meal2 .fillet .filletimg4 i, #meals .meal3 .fillet .filletimg i, #meals .meal3 .fillet .filletimg2 i, #meals .meal3 .fillet .filletimg3 i, #meals .meal3 .fillet .filletimg4 i, #meals .meal4 .fillet .filletimg i, #meals .meal4 .fillet .filletimg2 i, #meals .meal4 .fillet .filletimg3 i, #meals .meal4 .fillet .filletimg4 i {
+          color: #fff;
+          position: absolute;
+          top: 177px;
+          left: 174px;
+          font-size: 29px;
+          opacity: 0;
+          transition: 0.4s; }
+        #meals .meal1 .fillet .filletimg .imgop, #meals .meal1 .fillet .filletimg2 .imgop, #meals .meal1 .fillet .filletimg3 .imgop, #meals .meal1 .fillet .filletimg4 .imgop, #meals .meal2 .fillet .filletimg .imgop, #meals .meal2 .fillet .filletimg2 .imgop, #meals .meal2 .fillet .filletimg3 .imgop, #meals .meal2 .fillet .filletimg4 .imgop, #meals .meal3 .fillet .filletimg .imgop, #meals .meal3 .fillet .filletimg2 .imgop, #meals .meal3 .fillet .filletimg3 .imgop, #meals .meal3 .fillet .filletimg4 .imgop, #meals .meal4 .fillet .filletimg .imgop, #meals .meal4 .fillet .filletimg2 .imgop, #meals .meal4 .fillet .filletimg3 .imgop, #meals .meal4 .fillet .filletimg4 .imgop {
+          position: absolute;
+          background-color: black;
+          opacity: 0;
+          height: 390px;
+          width: 380px;
+          top: 0px;
+          transition: 0.4s;
+          cursor: pointer; }
+      #meals .meal1 .fillet .bottomimg, #meals .meal2 .fillet .bottomimg, #meals .meal3 .fillet .bottomimg, #meals .meal4 .fillet .bottomimg {
+        position: absolute;
+        top: 385px;
+        left: 140px; }
+    #meals .meal1 .paella, #meals .meal2 .paella, #meals .meal3 .paella, #meals .meal4 .paella {
+      position: relative; }
+      #meals .meal1 .paella .paellaimg, #meals .meal1 .paella .paellaimg2, #meals .meal1 .paella .paellaimg3, #meals .meal1 .paella .paellaimg4, #meals .meal2 .paella .paellaimg, #meals .meal2 .paella .paellaimg2, #meals .meal2 .paella .paellaimg3, #meals .meal2 .paella .paellaimg4, #meals .meal3 .paella .paellaimg, #meals .meal3 .paella .paellaimg2, #meals .meal3 .paella .paellaimg3, #meals .meal3 .paella .paellaimg4, #meals .meal4 .paella .paellaimg, #meals .meal4 .paella .paellaimg2, #meals .meal4 .paella .paellaimg3, #meals .meal4 .paella .paellaimg4 {
+        height: 390px;
+        width: 380px; }
+        #meals .meal1 .paella .paellaimg:hover .imgop, #meals .meal1 .paella .paellaimg2:hover .imgop, #meals .meal1 .paella .paellaimg3:hover .imgop, #meals .meal1 .paella .paellaimg4:hover .imgop, #meals .meal2 .paella .paellaimg:hover .imgop, #meals .meal2 .paella .paellaimg2:hover .imgop, #meals .meal2 .paella .paellaimg3:hover .imgop, #meals .meal2 .paella .paellaimg4:hover .imgop, #meals .meal3 .paella .paellaimg:hover .imgop, #meals .meal3 .paella .paellaimg2:hover .imgop, #meals .meal3 .paella .paellaimg3:hover .imgop, #meals .meal3 .paella .paellaimg4:hover .imgop, #meals .meal4 .paella .paellaimg:hover .imgop, #meals .meal4 .paella .paellaimg2:hover .imgop, #meals .meal4 .paella .paellaimg3:hover .imgop, #meals .meal4 .paella .paellaimg4:hover .imgop {
+          opacity: 40%; }
+        #meals .meal1 .paella .paellaimg:hover i, #meals .meal1 .paella .paellaimg2:hover i, #meals .meal1 .paella .paellaimg3:hover i, #meals .meal1 .paella .paellaimg4:hover i, #meals .meal2 .paella .paellaimg:hover i, #meals .meal2 .paella .paellaimg2:hover i, #meals .meal2 .paella .paellaimg3:hover i, #meals .meal2 .paella .paellaimg4:hover i, #meals .meal3 .paella .paellaimg:hover i, #meals .meal3 .paella .paellaimg2:hover i, #meals .meal3 .paella .paellaimg3:hover i, #meals .meal3 .paella .paellaimg4:hover i, #meals .meal4 .paella .paellaimg:hover i, #meals .meal4 .paella .paellaimg2:hover i, #meals .meal4 .paella .paellaimg3:hover i, #meals .meal4 .paella .paellaimg4:hover i {
+          opacity: 1; }
+        #meals .meal1 .paella .paellaimg img, #meals .meal1 .paella .paellaimg2 img, #meals .meal1 .paella .paellaimg3 img, #meals .meal1 .paella .paellaimg4 img, #meals .meal2 .paella .paellaimg img, #meals .meal2 .paella .paellaimg2 img, #meals .meal2 .paella .paellaimg3 img, #meals .meal2 .paella .paellaimg4 img, #meals .meal3 .paella .paellaimg img, #meals .meal3 .paella .paellaimg2 img, #meals .meal3 .paella .paellaimg3 img, #meals .meal3 .paella .paellaimg4 img, #meals .meal4 .paella .paellaimg img, #meals .meal4 .paella .paellaimg2 img, #meals .meal4 .paella .paellaimg3 img, #meals .meal4 .paella .paellaimg4 img {
+          width: 100%;
+          height: 100%; }
+        #meals .meal1 .paella .paellaimg i, #meals .meal1 .paella .paellaimg2 i, #meals .meal1 .paella .paellaimg3 i, #meals .meal1 .paella .paellaimg4 i, #meals .meal2 .paella .paellaimg i, #meals .meal2 .paella .paellaimg2 i, #meals .meal2 .paella .paellaimg3 i, #meals .meal2 .paella .paellaimg4 i, #meals .meal3 .paella .paellaimg i, #meals .meal3 .paella .paellaimg2 i, #meals .meal3 .paella .paellaimg3 i, #meals .meal3 .paella .paellaimg4 i, #meals .meal4 .paella .paellaimg i, #meals .meal4 .paella .paellaimg2 i, #meals .meal4 .paella .paellaimg3 i, #meals .meal4 .paella .paellaimg4 i {
+          color: #fff;
+          position: absolute;
+          top: 177px;
+          left: 174px;
+          font-size: 29px;
+          opacity: 0;
+          transition: 0.4s; }
+        #meals .meal1 .paella .paellaimg .imgop, #meals .meal1 .paella .paellaimg2 .imgop, #meals .meal1 .paella .paellaimg3 .imgop, #meals .meal1 .paella .paellaimg4 .imgop, #meals .meal2 .paella .paellaimg .imgop, #meals .meal2 .paella .paellaimg2 .imgop, #meals .meal2 .paella .paellaimg3 .imgop, #meals .meal2 .paella .paellaimg4 .imgop, #meals .meal3 .paella .paellaimg .imgop, #meals .meal3 .paella .paellaimg2 .imgop, #meals .meal3 .paella .paellaimg3 .imgop, #meals .meal3 .paella .paellaimg4 .imgop, #meals .meal4 .paella .paellaimg .imgop, #meals .meal4 .paella .paellaimg2 .imgop, #meals .meal4 .paella .paellaimg3 .imgop, #meals .meal4 .paella .paellaimg4 .imgop {
+          position: absolute;
+          background-color: black;
+          opacity: 0;
+          height: 390px;
+          width: 380px;
+          top: 0px;
+          transition: 0.4s;
+          cursor: pointer; }
+      #meals .meal1 .paella .metn1, #meals .meal2 .paella .metn1, #meals .meal3 .paella .metn1, #meals .meal4 .paella .metn1 {
+        box-shadow: 0 0 20px rgba(0, 0, 0, 0.12);
+        background-color: #fff;
+        text-align: center;
+        height: 390px;
+        width: 380px; }
+        #meals .meal1 .paella .metn1 h4, #meals .meal2 .paella .metn1 h4, #meals .meal3 .paella .metn1 h4, #meals .meal4 .paella .metn1 h4 {
+          font-size: 20px;
+          color: #bc8d46;
+          font-family: 'Kaushan Script', cursive;
+          padding-top: 48px; }
+        #meals .meal1 .paella .metn1 h3, #meals .meal2 .paella .metn1 h3, #meals .meal3 .paella .metn1 h3, #meals .meal4 .paella .metn1 h3 {
+          font-size: 24px;
+          color: #222;
+          font-family: 'Kaushan Script', cursive; }
+        #meals .meal1 .paella .metn1 .img1 img, #meals .meal2 .paella .metn1 .img1 img, #meals .meal3 .paella .metn1 .img1 img, #meals .meal4 .paella .metn1 .img1 img {
+          margin-bottom: 16px;
+          margin-top: 10px; }
+        #meals .meal1 .paella .metn1 p, #meals .meal2 .paella .metn1 p, #meals .meal3 .paella .metn1 p, #meals .meal4 .paella .metn1 p {
+          color: #9b9b9b;
+          font-family: 'Raleway', sans-serif; }
+      #meals .meal1 .paella .topimg, #meals .meal2 .paella .topimg, #meals .meal3 .paella .topimg, #meals .meal4 .paella .topimg {
+        position: absolute;
+        top: 366px;
+        left: 140px; }
+    #meals .meal1 .breast, #meals .meal2 .breast, #meals .meal3 .breast, #meals .meal4 .breast {
+      position: relative; }
+      #meals .meal1 .breast .metn, #meals .meal2 .breast .metn, #meals .meal3 .breast .metn, #meals .meal4 .breast .metn {
+        box-shadow: 0 0 20px rgba(0, 0, 0, 0.12);
+        background-color: #fff;
+        text-align: center;
+        height: 390px;
+        width: 380px; }
+        #meals .meal1 .breast .metn h4, #meals .meal2 .breast .metn h4, #meals .meal3 .breast .metn h4, #meals .meal4 .breast .metn h4 {
+          font-size: 20px;
+          color: #bc8d46;
+          font-family: 'Kaushan Script', cursive;
+          padding-top: 48px; }
+        #meals .meal1 .breast .metn h3, #meals .meal2 .breast .metn h3, #meals .meal3 .breast .metn h3, #meals .meal4 .breast .metn h3 {
+          font-size: 24px;
+          color: #222;
+          font-family: 'Kaushan Script', cursive; }
+        #meals .meal1 .breast .metn .img1 img, #meals .meal2 .breast .metn .img1 img, #meals .meal3 .breast .metn .img1 img, #meals .meal4 .breast .metn .img1 img {
+          margin-bottom: 16px;
+          margin-top: 10px; }
+        #meals .meal1 .breast .metn p, #meals .meal2 .breast .metn p, #meals .meal3 .breast .metn p, #meals .meal4 .breast .metn p {
+          color: #9b9b9b;
+          font-family: 'Raleway', sans-serif; }
+      #meals .meal1 .breast .breastimg, #meals .meal1 .breast .breastimg2, #meals .meal1 .breast .breastimg3, #meals .meal1 .breast .breastimg4, #meals .meal2 .breast .breastimg, #meals .meal2 .breast .breastimg2, #meals .meal2 .breast .breastimg3, #meals .meal2 .breast .breastimg4, #meals .meal3 .breast .breastimg, #meals .meal3 .breast .breastimg2, #meals .meal3 .breast .breastimg3, #meals .meal3 .breast .breastimg4, #meals .meal4 .breast .breastimg, #meals .meal4 .breast .breastimg2, #meals .meal4 .breast .breastimg3, #meals .meal4 .breast .breastimg4 {
+        height: 390px;
+        width: 380px; }
+        #meals .meal1 .breast .breastimg:hover .imgop, #meals .meal1 .breast .breastimg2:hover .imgop, #meals .meal1 .breast .breastimg3:hover .imgop, #meals .meal1 .breast .breastimg4:hover .imgop, #meals .meal2 .breast .breastimg:hover .imgop, #meals .meal2 .breast .breastimg2:hover .imgop, #meals .meal2 .breast .breastimg3:hover .imgop, #meals .meal2 .breast .breastimg4:hover .imgop, #meals .meal3 .breast .breastimg:hover .imgop, #meals .meal3 .breast .breastimg2:hover .imgop, #meals .meal3 .breast .breastimg3:hover .imgop, #meals .meal3 .breast .breastimg4:hover .imgop, #meals .meal4 .breast .breastimg:hover .imgop, #meals .meal4 .breast .breastimg2:hover .imgop, #meals .meal4 .breast .breastimg3:hover .imgop, #meals .meal4 .breast .breastimg4:hover .imgop {
+          opacity: 40%; }
+        #meals .meal1 .breast .breastimg:hover i, #meals .meal1 .breast .breastimg2:hover i, #meals .meal1 .breast .breastimg3:hover i, #meals .meal1 .breast .breastimg4:hover i, #meals .meal2 .breast .breastimg:hover i, #meals .meal2 .breast .breastimg2:hover i, #meals .meal2 .breast .breastimg3:hover i, #meals .meal2 .breast .breastimg4:hover i, #meals .meal3 .breast .breastimg:hover i, #meals .meal3 .breast .breastimg2:hover i, #meals .meal3 .breast .breastimg3:hover i, #meals .meal3 .breast .breastimg4:hover i, #meals .meal4 .breast .breastimg:hover i, #meals .meal4 .breast .breastimg2:hover i, #meals .meal4 .breast .breastimg3:hover i, #meals .meal4 .breast .breastimg4:hover i {
+          opacity: 1; }
+        #meals .meal1 .breast .breastimg img, #meals .meal1 .breast .breastimg2 img, #meals .meal1 .breast .breastimg3 img, #meals .meal1 .breast .breastimg4 img, #meals .meal2 .breast .breastimg img, #meals .meal2 .breast .breastimg2 img, #meals .meal2 .breast .breastimg3 img, #meals .meal2 .breast .breastimg4 img, #meals .meal3 .breast .breastimg img, #meals .meal3 .breast .breastimg2 img, #meals .meal3 .breast .breastimg3 img, #meals .meal3 .breast .breastimg4 img, #meals .meal4 .breast .breastimg img, #meals .meal4 .breast .breastimg2 img, #meals .meal4 .breast .breastimg3 img, #meals .meal4 .breast .breastimg4 img {
+          width: 100%;
+          height: 100%; }
+        #meals .meal1 .breast .breastimg i, #meals .meal1 .breast .breastimg2 i, #meals .meal1 .breast .breastimg3 i, #meals .meal1 .breast .breastimg4 i, #meals .meal2 .breast .breastimg i, #meals .meal2 .breast .breastimg2 i, #meals .meal2 .breast .breastimg3 i, #meals .meal2 .breast .breastimg4 i, #meals .meal3 .breast .breastimg i, #meals .meal3 .breast .breastimg2 i, #meals .meal3 .breast .breastimg3 i, #meals .meal3 .breast .breastimg4 i, #meals .meal4 .breast .breastimg i, #meals .meal4 .breast .breastimg2 i, #meals .meal4 .breast .breastimg3 i, #meals .meal4 .breast .breastimg4 i {
+          color: #fff;
+          position: absolute;
+          top: 565px;
+          left: 174px;
+          font-size: 29px;
+          opacity: 0;
+          transition: 0.4s; }
+        #meals .meal1 .breast .breastimg .imgop, #meals .meal1 .breast .breastimg2 .imgop, #meals .meal1 .breast .breastimg3 .imgop, #meals .meal1 .breast .breastimg4 .imgop, #meals .meal2 .breast .breastimg .imgop, #meals .meal2 .breast .breastimg2 .imgop, #meals .meal2 .breast .breastimg3 .imgop, #meals .meal2 .breast .breastimg4 .imgop, #meals .meal3 .breast .breastimg .imgop, #meals .meal3 .breast .breastimg2 .imgop, #meals .meal3 .breast .breastimg3 .imgop, #meals .meal3 .breast .breastimg4 .imgop, #meals .meal4 .breast .breastimg .imgop, #meals .meal4 .breast .breastimg2 .imgop, #meals .meal4 .breast .breastimg3 .imgop, #meals .meal4 .breast .breastimg4 .imgop {
+          position: absolute;
+          background-color: black;
+          opacity: 0;
+          height: 390px;
+          width: 380px;
+          top: 391px;
+          transition: 0.4s;
+          cursor: pointer; }
+      #meals .meal1 .breast .bottomimg, #meals .meal2 .breast .bottomimg, #meals .meal3 .breast .bottomimg, #meals .meal4 .breast .bottomimg {
+        position: absolute;
+        top: 385px;
+        left: 140px; }
+    #meals .meal1 .sea, #meals .meal2 .sea, #meals .meal3 .sea, #meals .meal4 .sea {
+      position: relative; }
+      #meals .meal1 .sea .metn, #meals .meal2 .sea .metn, #meals .meal3 .sea .metn, #meals .meal4 .sea .metn {
+        box-shadow: 0 0 20px rgba(0, 0, 0, 0.12);
+        background-color: #fff;
+        text-align: center;
+        height: 390px;
+        width: 380px; }
+        #meals .meal1 .sea .metn h4, #meals .meal2 .sea .metn h4, #meals .meal3 .sea .metn h4, #meals .meal4 .sea .metn h4 {
+          font-size: 20px;
+          color: #bc8d46;
+          font-family: 'Kaushan Script', cursive;
+          padding-top: 48px; }
+        #meals .meal1 .sea .metn h3, #meals .meal2 .sea .metn h3, #meals .meal3 .sea .metn h3, #meals .meal4 .sea .metn h3 {
+          font-size: 24px;
+          color: #222;
+          font-family: 'Kaushan Script', cursive; }
+        #meals .meal1 .sea .metn .img1 img, #meals .meal2 .sea .metn .img1 img, #meals .meal3 .sea .metn .img1 img, #meals .meal4 .sea .metn .img1 img {
+          margin-bottom: 16px;
+          margin-top: 10px; }
+        #meals .meal1 .sea .metn p, #meals .meal2 .sea .metn p, #meals .meal3 .sea .metn p, #meals .meal4 .sea .metn p {
+          color: #9b9b9b;
+          font-family: 'Raleway', sans-serif; }
+      #meals .meal1 .sea .seaimg, #meals .meal1 .sea .seaimg2, #meals .meal1 .sea .seaimg3, #meals .meal1 .sea .seaimg4, #meals .meal2 .sea .seaimg, #meals .meal2 .sea .seaimg2, #meals .meal2 .sea .seaimg3, #meals .meal2 .sea .seaimg4, #meals .meal3 .sea .seaimg, #meals .meal3 .sea .seaimg2, #meals .meal3 .sea .seaimg3, #meals .meal3 .sea .seaimg4, #meals .meal4 .sea .seaimg, #meals .meal4 .sea .seaimg2, #meals .meal4 .sea .seaimg3, #meals .meal4 .sea .seaimg4 {
+        height: 390px;
+        width: 380px; }
+        #meals .meal1 .sea .seaimg:hover .imgop, #meals .meal1 .sea .seaimg2:hover .imgop, #meals .meal1 .sea .seaimg3:hover .imgop, #meals .meal1 .sea .seaimg4:hover .imgop, #meals .meal2 .sea .seaimg:hover .imgop, #meals .meal2 .sea .seaimg2:hover .imgop, #meals .meal2 .sea .seaimg3:hover .imgop, #meals .meal2 .sea .seaimg4:hover .imgop, #meals .meal3 .sea .seaimg:hover .imgop, #meals .meal3 .sea .seaimg2:hover .imgop, #meals .meal3 .sea .seaimg3:hover .imgop, #meals .meal3 .sea .seaimg4:hover .imgop, #meals .meal4 .sea .seaimg:hover .imgop, #meals .meal4 .sea .seaimg2:hover .imgop, #meals .meal4 .sea .seaimg3:hover .imgop, #meals .meal4 .sea .seaimg4:hover .imgop {
+          opacity: 40%; }
+        #meals .meal1 .sea .seaimg:hover i, #meals .meal1 .sea .seaimg2:hover i, #meals .meal1 .sea .seaimg3:hover i, #meals .meal1 .sea .seaimg4:hover i, #meals .meal2 .sea .seaimg:hover i, #meals .meal2 .sea .seaimg2:hover i, #meals .meal2 .sea .seaimg3:hover i, #meals .meal2 .sea .seaimg4:hover i, #meals .meal3 .sea .seaimg:hover i, #meals .meal3 .sea .seaimg2:hover i, #meals .meal3 .sea .seaimg3:hover i, #meals .meal3 .sea .seaimg4:hover i, #meals .meal4 .sea .seaimg:hover i, #meals .meal4 .sea .seaimg2:hover i, #meals .meal4 .sea .seaimg3:hover i, #meals .meal4 .sea .seaimg4:hover i {
+          opacity: 1; }
+        #meals .meal1 .sea .seaimg img, #meals .meal1 .sea .seaimg2 img, #meals .meal1 .sea .seaimg3 img, #meals .meal1 .sea .seaimg4 img, #meals .meal2 .sea .seaimg img, #meals .meal2 .sea .seaimg2 img, #meals .meal2 .sea .seaimg3 img, #meals .meal2 .sea .seaimg4 img, #meals .meal3 .sea .seaimg img, #meals .meal3 .sea .seaimg2 img, #meals .meal3 .sea .seaimg3 img, #meals .meal3 .sea .seaimg4 img, #meals .meal4 .sea .seaimg img, #meals .meal4 .sea .seaimg2 img, #meals .meal4 .sea .seaimg3 img, #meals .meal4 .sea .seaimg4 img {
+          width: 100%;
+          height: 100%; }
+        #meals .meal1 .sea .seaimg i, #meals .meal1 .sea .seaimg2 i, #meals .meal1 .sea .seaimg3 i, #meals .meal1 .sea .seaimg4 i, #meals .meal2 .sea .seaimg i, #meals .meal2 .sea .seaimg2 i, #meals .meal2 .sea .seaimg3 i, #meals .meal2 .sea .seaimg4 i, #meals .meal3 .sea .seaimg i, #meals .meal3 .sea .seaimg2 i, #meals .meal3 .sea .seaimg3 i, #meals .meal3 .sea .seaimg4 i, #meals .meal4 .sea .seaimg i, #meals .meal4 .sea .seaimg2 i, #meals .meal4 .sea .seaimg3 i, #meals .meal4 .sea .seaimg4 i {
+          color: #fff;
+          position: absolute;
+          top: 565px;
+          left: 174px;
+          font-size: 29px;
+          opacity: 0;
+          transition: 0.4s; }
+        #meals .meal1 .sea .seaimg .imgop, #meals .meal1 .sea .seaimg2 .imgop, #meals .meal1 .sea .seaimg3 .imgop, #meals .meal1 .sea .seaimg4 .imgop, #meals .meal2 .sea .seaimg .imgop, #meals .meal2 .sea .seaimg2 .imgop, #meals .meal2 .sea .seaimg3 .imgop, #meals .meal2 .sea .seaimg4 .imgop, #meals .meal3 .sea .seaimg .imgop, #meals .meal3 .sea .seaimg2 .imgop, #meals .meal3 .sea .seaimg3 .imgop, #meals .meal3 .sea .seaimg4 .imgop, #meals .meal4 .sea .seaimg .imgop, #meals .meal4 .sea .seaimg2 .imgop, #meals .meal4 .sea .seaimg3 .imgop, #meals .meal4 .sea .seaimg4 .imgop {
+          position: absolute;
+          background-color: black;
+          opacity: 0;
+          height: 390px;
+          width: 380px;
+          top: 391px;
+          transition: 0.4s;
+          cursor: pointer; }
+      #meals .meal1 .sea .bottomimg, #meals .meal2 .sea .bottomimg, #meals .meal3 .sea .bottomimg, #meals .meal4 .sea .bottomimg {
+        position: absolute;
+        top: 385px;
+        left: 140px; }
+    #meals .meal1 .paprika, #meals .meal2 .paprika, #meals .meal3 .paprika, #meals .meal4 .paprika {
+      position: relative; }
+      #meals .meal1 .paprika .paprikaimg, #meals .meal1 .paprika .paprikaimg2, #meals .meal1 .paprika .paprikaimg3, #meals .meal1 .paprika .paprikaimg4, #meals .meal2 .paprika .paprikaimg, #meals .meal2 .paprika .paprikaimg2, #meals .meal2 .paprika .paprikaimg3, #meals .meal2 .paprika .paprikaimg4, #meals .meal3 .paprika .paprikaimg, #meals .meal3 .paprika .paprikaimg2, #meals .meal3 .paprika .paprikaimg3, #meals .meal3 .paprika .paprikaimg4, #meals .meal4 .paprika .paprikaimg, #meals .meal4 .paprika .paprikaimg2, #meals .meal4 .paprika .paprikaimg3, #meals .meal4 .paprika .paprikaimg4 {
+        height: 390px;
+        width: 380px; }
+        #meals .meal1 .paprika .paprikaimg:hover .imgop, #meals .meal1 .paprika .paprikaimg2:hover .imgop, #meals .meal1 .paprika .paprikaimg3:hover .imgop, #meals .meal1 .paprika .paprikaimg4:hover .imgop, #meals .meal2 .paprika .paprikaimg:hover .imgop, #meals .meal2 .paprika .paprikaimg2:hover .imgop, #meals .meal2 .paprika .paprikaimg3:hover .imgop, #meals .meal2 .paprika .paprikaimg4:hover .imgop, #meals .meal3 .paprika .paprikaimg:hover .imgop, #meals .meal3 .paprika .paprikaimg2:hover .imgop, #meals .meal3 .paprika .paprikaimg3:hover .imgop, #meals .meal3 .paprika .paprikaimg4:hover .imgop, #meals .meal4 .paprika .paprikaimg:hover .imgop, #meals .meal4 .paprika .paprikaimg2:hover .imgop, #meals .meal4 .paprika .paprikaimg3:hover .imgop, #meals .meal4 .paprika .paprikaimg4:hover .imgop {
+          opacity: 40%; }
+        #meals .meal1 .paprika .paprikaimg:hover i, #meals .meal1 .paprika .paprikaimg2:hover i, #meals .meal1 .paprika .paprikaimg3:hover i, #meals .meal1 .paprika .paprikaimg4:hover i, #meals .meal2 .paprika .paprikaimg:hover i, #meals .meal2 .paprika .paprikaimg2:hover i, #meals .meal2 .paprika .paprikaimg3:hover i, #meals .meal2 .paprika .paprikaimg4:hover i, #meals .meal3 .paprika .paprikaimg:hover i, #meals .meal3 .paprika .paprikaimg2:hover i, #meals .meal3 .paprika .paprikaimg3:hover i, #meals .meal3 .paprika .paprikaimg4:hover i, #meals .meal4 .paprika .paprikaimg:hover i, #meals .meal4 .paprika .paprikaimg2:hover i, #meals .meal4 .paprika .paprikaimg3:hover i, #meals .meal4 .paprika .paprikaimg4:hover i {
+          opacity: 1; }
+        #meals .meal1 .paprika .paprikaimg img, #meals .meal1 .paprika .paprikaimg2 img, #meals .meal1 .paprika .paprikaimg3 img, #meals .meal1 .paprika .paprikaimg4 img, #meals .meal2 .paprika .paprikaimg img, #meals .meal2 .paprika .paprikaimg2 img, #meals .meal2 .paprika .paprikaimg3 img, #meals .meal2 .paprika .paprikaimg4 img, #meals .meal3 .paprika .paprikaimg img, #meals .meal3 .paprika .paprikaimg2 img, #meals .meal3 .paprika .paprikaimg3 img, #meals .meal3 .paprika .paprikaimg4 img, #meals .meal4 .paprika .paprikaimg img, #meals .meal4 .paprika .paprikaimg2 img, #meals .meal4 .paprika .paprikaimg3 img, #meals .meal4 .paprika .paprikaimg4 img {
+          width: 100%;
+          height: 100%; }
+        #meals .meal1 .paprika .paprikaimg i, #meals .meal1 .paprika .paprikaimg2 i, #meals .meal1 .paprika .paprikaimg3 i, #meals .meal1 .paprika .paprikaimg4 i, #meals .meal2 .paprika .paprikaimg i, #meals .meal2 .paprika .paprikaimg2 i, #meals .meal2 .paprika .paprikaimg3 i, #meals .meal2 .paprika .paprikaimg4 i, #meals .meal3 .paprika .paprikaimg i, #meals .meal3 .paprika .paprikaimg2 i, #meals .meal3 .paprika .paprikaimg3 i, #meals .meal3 .paprika .paprikaimg4 i, #meals .meal4 .paprika .paprikaimg i, #meals .meal4 .paprika .paprikaimg2 i, #meals .meal4 .paprika .paprikaimg3 i, #meals .meal4 .paprika .paprikaimg4 i {
+          color: #fff;
+          position: absolute;
+          top: 177px;
+          left: 174px;
+          font-size: 29px;
+          opacity: 0;
+          transition: 0.4s; }
+        #meals .meal1 .paprika .paprikaimg .imgop, #meals .meal1 .paprika .paprikaimg2 .imgop, #meals .meal1 .paprika .paprikaimg3 .imgop, #meals .meal1 .paprika .paprikaimg4 .imgop, #meals .meal2 .paprika .paprikaimg .imgop, #meals .meal2 .paprika .paprikaimg2 .imgop, #meals .meal2 .paprika .paprikaimg3 .imgop, #meals .meal2 .paprika .paprikaimg4 .imgop, #meals .meal3 .paprika .paprikaimg .imgop, #meals .meal3 .paprika .paprikaimg2 .imgop, #meals .meal3 .paprika .paprikaimg3 .imgop, #meals .meal3 .paprika .paprikaimg4 .imgop, #meals .meal4 .paprika .paprikaimg .imgop, #meals .meal4 .paprika .paprikaimg2 .imgop, #meals .meal4 .paprika .paprikaimg3 .imgop, #meals .meal4 .paprika .paprikaimg4 .imgop {
+          position: absolute;
+          background-color: black;
+          opacity: 0;
+          height: 390px;
+          width: 380px;
+          top: 0px;
+          transition: 0.4s;
+          cursor: pointer; }
+      #meals .meal1 .paprika .metn1, #meals .meal2 .paprika .metn1, #meals .meal3 .paprika .metn1, #meals .meal4 .paprika .metn1 {
+        box-shadow: 0 0 20px rgba(0, 0, 0, 0.12);
+        background-color: #fff;
+        text-align: center;
+        height: 390px;
+        width: 380px; }
+        #meals .meal1 .paprika .metn1 h4, #meals .meal2 .paprika .metn1 h4, #meals .meal3 .paprika .metn1 h4, #meals .meal4 .paprika .metn1 h4 {
+          font-size: 20px;
+          color: #bc8d46;
+          font-family: 'Kaushan Script', cursive;
+          padding-top: 48px; }
+        #meals .meal1 .paprika .metn1 h3, #meals .meal2 .paprika .metn1 h3, #meals .meal3 .paprika .metn1 h3, #meals .meal4 .paprika .metn1 h3 {
+          font-size: 24px;
+          color: #222;
+          font-family: 'Kaushan Script', cursive; }
+        #meals .meal1 .paprika .metn1 .img1 img, #meals .meal2 .paprika .metn1 .img1 img, #meals .meal3 .paprika .metn1 .img1 img, #meals .meal4 .paprika .metn1 .img1 img {
+          margin-bottom: 16px;
+          margin-top: 10px; }
+        #meals .meal1 .paprika .metn1 p, #meals .meal2 .paprika .metn1 p, #meals .meal3 .paprika .metn1 p, #meals .meal4 .paprika .metn1 p {
+          color: #9b9b9b;
+          font-family: 'Raleway', sans-serif; }
+      #meals .meal1 .paprika .topimg, #meals .meal2 .paprika .topimg, #meals .meal3 .paprika .topimg, #meals .meal4 .paprika .topimg {
+        position: absolute;
+        top: 366px;
+        left: 140px; }
+    #meals .meal1 .steak, #meals .meal2 .steak, #meals .meal3 .steak, #meals .meal4 .steak {
+      position: relative; }
+      #meals .meal1 .steak .metn, #meals .meal2 .steak .metn, #meals .meal3 .steak .metn, #meals .meal4 .steak .metn {
+        box-shadow: 0 0 20px rgba(0, 0, 0, 0.12);
+        background-color: #fff;
+        text-align: center;
+        height: 390px;
+        width: 380px; }
+        #meals .meal1 .steak .metn h4, #meals .meal2 .steak .metn h4, #meals .meal3 .steak .metn h4, #meals .meal4 .steak .metn h4 {
+          font-size: 20px;
+          color: #bc8d46;
+          font-family: 'Kaushan Script', cursive;
+          padding-top: 48px; }
+        #meals .meal1 .steak .metn h3, #meals .meal2 .steak .metn h3, #meals .meal3 .steak .metn h3, #meals .meal4 .steak .metn h3 {
+          font-size: 24px;
+          color: #222;
+          font-family: 'Kaushan Script', cursive; }
+        #meals .meal1 .steak .metn .img1 img, #meals .meal2 .steak .metn .img1 img, #meals .meal3 .steak .metn .img1 img, #meals .meal4 .steak .metn .img1 img {
+          margin-bottom: 16px;
+          margin-top: 10px; }
+        #meals .meal1 .steak .metn p, #meals .meal2 .steak .metn p, #meals .meal3 .steak .metn p, #meals .meal4 .steak .metn p {
+          color: #9b9b9b;
+          font-family: 'Raleway', sans-serif; }
+      #meals .meal1 .steak .steakimg, #meals .meal1 .steak .steakimg2, #meals .meal1 .steak .steakimg3, #meals .meal1 .steak .steakimg4, #meals .meal2 .steak .steakimg, #meals .meal2 .steak .steakimg2, #meals .meal2 .steak .steakimg3, #meals .meal2 .steak .steakimg4, #meals .meal3 .steak .steakimg, #meals .meal3 .steak .steakimg2, #meals .meal3 .steak .steakimg3, #meals .meal3 .steak .steakimg4, #meals .meal4 .steak .steakimg, #meals .meal4 .steak .steakimg2, #meals .meal4 .steak .steakimg3, #meals .meal4 .steak .steakimg4 {
+        height: 390px;
+        width: 380px; }
+        #meals .meal1 .steak .steakimg:hover .imgop, #meals .meal1 .steak .steakimg2:hover .imgop, #meals .meal1 .steak .steakimg3:hover .imgop, #meals .meal1 .steak .steakimg4:hover .imgop, #meals .meal2 .steak .steakimg:hover .imgop, #meals .meal2 .steak .steakimg2:hover .imgop, #meals .meal2 .steak .steakimg3:hover .imgop, #meals .meal2 .steak .steakimg4:hover .imgop, #meals .meal3 .steak .steakimg:hover .imgop, #meals .meal3 .steak .steakimg2:hover .imgop, #meals .meal3 .steak .steakimg3:hover .imgop, #meals .meal3 .steak .steakimg4:hover .imgop, #meals .meal4 .steak .steakimg:hover .imgop, #meals .meal4 .steak .steakimg2:hover .imgop, #meals .meal4 .steak .steakimg3:hover .imgop, #meals .meal4 .steak .steakimg4:hover .imgop {
+          opacity: 40%; }
+        #meals .meal1 .steak .steakimg:hover i, #meals .meal1 .steak .steakimg2:hover i, #meals .meal1 .steak .steakimg3:hover i, #meals .meal1 .steak .steakimg4:hover i, #meals .meal2 .steak .steakimg:hover i, #meals .meal2 .steak .steakimg2:hover i, #meals .meal2 .steak .steakimg3:hover i, #meals .meal2 .steak .steakimg4:hover i, #meals .meal3 .steak .steakimg:hover i, #meals .meal3 .steak .steakimg2:hover i, #meals .meal3 .steak .steakimg3:hover i, #meals .meal3 .steak .steakimg4:hover i, #meals .meal4 .steak .steakimg:hover i, #meals .meal4 .steak .steakimg2:hover i, #meals .meal4 .steak .steakimg3:hover i, #meals .meal4 .steak .steakimg4:hover i {
+          opacity: 1; }
+        #meals .meal1 .steak .steakimg img, #meals .meal1 .steak .steakimg2 img, #meals .meal1 .steak .steakimg3 img, #meals .meal1 .steak .steakimg4 img, #meals .meal2 .steak .steakimg img, #meals .meal2 .steak .steakimg2 img, #meals .meal2 .steak .steakimg3 img, #meals .meal2 .steak .steakimg4 img, #meals .meal3 .steak .steakimg img, #meals .meal3 .steak .steakimg2 img, #meals .meal3 .steak .steakimg3 img, #meals .meal3 .steak .steakimg4 img, #meals .meal4 .steak .steakimg img, #meals .meal4 .steak .steakimg2 img, #meals .meal4 .steak .steakimg3 img, #meals .meal4 .steak .steakimg4 img {
+          width: 100%;
+          height: 100%; }
+        #meals .meal1 .steak .steakimg i, #meals .meal1 .steak .steakimg2 i, #meals .meal1 .steak .steakimg3 i, #meals .meal1 .steak .steakimg4 i, #meals .meal2 .steak .steakimg i, #meals .meal2 .steak .steakimg2 i, #meals .meal2 .steak .steakimg3 i, #meals .meal2 .steak .steakimg4 i, #meals .meal3 .steak .steakimg i, #meals .meal3 .steak .steakimg2 i, #meals .meal3 .steak .steakimg3 i, #meals .meal3 .steak .steakimg4 i, #meals .meal4 .steak .steakimg i, #meals .meal4 .steak .steakimg2 i, #meals .meal4 .steak .steakimg3 i, #meals .meal4 .steak .steakimg4 i {
+          color: #fff;
+          position: absolute;
+          top: 565px;
+          left: 174px;
+          font-size: 29px;
+          opacity: 0;
+          transition: 0.4s; }
+        #meals .meal1 .steak .steakimg .imgop, #meals .meal1 .steak .steakimg2 .imgop, #meals .meal1 .steak .steakimg3 .imgop, #meals .meal1 .steak .steakimg4 .imgop, #meals .meal2 .steak .steakimg .imgop, #meals .meal2 .steak .steakimg2 .imgop, #meals .meal2 .steak .steakimg3 .imgop, #meals .meal2 .steak .steakimg4 .imgop, #meals .meal3 .steak .steakimg .imgop, #meals .meal3 .steak .steakimg2 .imgop, #meals .meal3 .steak .steakimg3 .imgop, #meals .meal3 .steak .steakimg4 .imgop, #meals .meal4 .steak .steakimg .imgop, #meals .meal4 .steak .steakimg2 .imgop, #meals .meal4 .steak .steakimg3 .imgop, #meals .meal4 .steak .steakimg4 .imgop {
+          position: absolute;
+          background-color: black;
+          opacity: 0;
+          height: 390px;
+          width: 380px;
+          top: 391px;
+          transition: 0.4s;
+          cursor: pointer; }
+      #meals .meal1 .steak .bottomimg, #meals .meal2 .steak .bottomimg, #meals .meal3 .steak .bottomimg, #meals .meal4 .steak .bottomimg {
+        position: absolute;
+        top: 385px;
+        left: 140px; }
+  #meals .meal1 {
+    display: block; }
+
+.discovera {
+  margin-top: 207px;
+  margin-left: 641px; }
+  .discovera a {
+    background-color: #282828;
+    font-size: 13px;
+    font-weight: 800;
+    color: #fff;
+    text-transform: uppercase;
+    padding: 15px 45px;
+    line-height: 46px;
+    transition: all 300ms linear 0ms;
+    border: 2px solid #282828;
+    letter-spacing: 0.02em;
+    text-decoration: none; }
+    .discovera a:hover {
+      border: 2px solid #bc8d46;
+      background-color: #bc8d46; }
+
+#backgroundslider {
+  position: relative;
+  margin-top: 100px;
+  background-attachment: fixed;
+  background-image: linear-gradient(to bottom, rgba(17, 17, 17, 0.74) 0, rgba(17, 17, 17, 0.74) 100%), url(../img/granny-bg-parallax1.jpg); }
+  #backgroundslider .bottom {
+    position: absolute;
+    left: 723px; }
+  #backgroundslider .txlar {
+    text-align: center; }
+    #backgroundslider .txlar h4 {
+      margin-top: 100px;
+      font-family: 'Great Vibes', cursive;
+      font-size: 41px;
+      line-height: 1;
+      color: rgba(188, 141, 70, 0.87); }
+    #backgroundslider .txlar h3 {
+      font-family: 'Kaushan Script', cursive;
+      font-size: 54px;
+      margin: 0;
+      padding-top: 7px;
+      padding-bottom: 18px;
+      color: #fff; }
+  #backgroundslider .slaytlar {
+    margin-top: 70px;
+    margin-bottom: 180px; }
+    #backgroundslider .slaytlar .slayt1, #backgroundslider .slaytlar .slayt2, #backgroundslider .slaytlar .slayt3, #backgroundslider .slaytlar .slayt4 {
+      border: 10px solid;
+      position: relative;
+      padding: 84px 49px;
+      background-color: #fff; }
+      #backgroundslider .slaytlar .slayt1 .imgkurdele, #backgroundslider .slaytlar .slayt2 .imgkurdele, #backgroundslider .slaytlar .slayt3 .imgkurdele, #backgroundslider .slaytlar .slayt4 .imgkurdele {
+        position: absolute;
+        left: 23px;
+        top: 0; }
+      #backgroundslider .slaytlar .slayt1 .icons ul, #backgroundslider .slaytlar .slayt2 .icons ul, #backgroundslider .slaytlar .slayt3 .icons ul, #backgroundslider .slaytlar .slayt4 .icons ul {
+        margin-top: -52px;
+        margin-bottom: 34px;
+        text-align: center; }
+        #backgroundslider .slaytlar .slayt1 .icons ul li, #backgroundslider .slaytlar .slayt2 .icons ul li, #backgroundslider .slaytlar .slayt3 .icons ul li, #backgroundslider .slaytlar .slayt4 .icons ul li {
+          list-style: none;
+          display: inline-block; }
+          #backgroundslider .slaytlar .slayt1 .icons ul li i, #backgroundslider .slaytlar .slayt2 .icons ul li i, #backgroundslider .slaytlar .slayt3 .icons ul li i, #backgroundslider .slaytlar .slayt4 .icons ul li i {
+            color: #ffc80a; }
+      #backgroundslider .slaytlar .slayt1 h4, #backgroundslider .slaytlar .slayt2 h4, #backgroundslider .slaytlar .slayt3 h4, #backgroundslider .slaytlar .slayt4 h4 {
+        font-family: 'Kaushan Script', cursive; }
+      #backgroundslider .slaytlar .slayt1 .imgperson, #backgroundslider .slaytlar .slayt2 .imgperson, #backgroundslider .slaytlar .slayt3 .imgperson, #backgroundslider .slaytlar .slayt4 .imgperson {
+        border-radius: 100%;
+        border: 3px solid #bc8d46;
+        width: 50px;
+        height: 50px;
+        margin-left: 116px;
+        margin-bottom: 14px;
+        margin-top: 30px; }
+        #backgroundslider .slaytlar .slayt1 .imgperson .person, #backgroundslider .slaytlar .slayt2 .imgperson .person, #backgroundslider .slaytlar .slayt3 .imgperson .person, #backgroundslider .slaytlar .slayt4 .imgperson .person {
+          border-radius: 100%;
+          width: 100%;
+          height: 100%; }
+      #backgroundslider .slaytlar .slayt1 p, #backgroundslider .slaytlar .slayt2 p, #backgroundslider .slaytlar .slayt3 p, #backgroundslider .slaytlar .slayt4 p {
+        text-align: center;
+        font-size: 13px;
+        line-height: 1;
+        color: #a5a5a5;
+        font-weight: 500;
+        font-style: italic;
+        font-family: inherit;
+        margin-bottom: 5px; }
+  #backgroundslider .top {
+    position: absolute;
+    left: 723px;
+    top: 920px; }
+
+#miss-slide {
+  margin-top: 130px; }
+  #miss-slide .slick-dots li {
+    background-color: rgba(70, 68, 68, 0.671);
+    border-radius: 100%; }
+  #miss-slide .misstext {
+    text-align: center; }
+    #miss-slide .misstext h4 {
+      font-family: 'Great Vibes', cursive;
+      font-size: 36px;
+      line-height: 1;
+      color: rgba(188, 141, 70, 0.87); }
+    #miss-slide .misstext h3 {
+      font-family: 'Kaushan Script', cursive;
+      font-size: 48px;
+      margin: 0;
+      padding-top: 7px;
+      padding-bottom: 18px; }
+    #miss-slide .misstext p {
+      font-family: 'Raleway', sans-serif;
+      font-size: 16px;
+      line-height: 24px;
+      padding-bottom: 19px;
+      padding-top: 19px;
+      color: #9b9b9b; }
+  #miss-slide .sliders .slider1, #miss-slide .sliders .slider2, #miss-slide .sliders .slider3, #miss-slide .sliders .slider4, #miss-slide .sliders .slider5, #miss-slide .sliders .slider6, #miss-slide .sliders .slider7, #miss-slide .sliders .slider8 {
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.04);
+    border: 10px solid #fff; }
+    #miss-slide .sliders .slider1 .img, #miss-slide .sliders .slider2 .img, #miss-slide .sliders .slider3 .img, #miss-slide .sliders .slider4 .img, #miss-slide .sliders .slider5 .img, #miss-slide .sliders .slider6 .img, #miss-slide .sliders .slider7 .img, #miss-slide .sliders .slider8 .img {
+      width: 278px;
+      height: 212px; }
+      #miss-slide .sliders .slider1 .img img, #miss-slide .sliders .slider2 .img img, #miss-slide .sliders .slider3 .img img, #miss-slide .sliders .slider4 .img img, #miss-slide .sliders .slider5 .img img, #miss-slide .sliders .slider6 .img img, #miss-slide .sliders .slider7 .img img, #miss-slide .sliders .slider8 .img img {
+        width: 100%;
+        height: 100%; }
+    #miss-slide .sliders .slider1 .text, #miss-slide .sliders .slider2 .text, #miss-slide .sliders .slider3 .text, #miss-slide .sliders .slider4 .text, #miss-slide .sliders .slider5 .text, #miss-slide .sliders .slider6 .text, #miss-slide .sliders .slider7 .text, #miss-slide .sliders .slider8 .text {
+      padding: 27px 30px; }
+      #miss-slide .sliders .slider1 .text .span1, #miss-slide .sliders .slider2 .text .span1, #miss-slide .sliders .slider3 .text .span1, #miss-slide .sliders .slider4 .text .span1, #miss-slide .sliders .slider5 .text .span1, #miss-slide .sliders .slider6 .text .span1, #miss-slide .sliders .slider7 .text .span1, #miss-slide .sliders .slider8 .text .span1 {
+        font-family: 'Raleway', sans-serif;
+        color: #bc8d46;
+        font-size: 12px;
+        font-weight: 700; }
+        #miss-slide .sliders .slider1 .text .span1:hover, #miss-slide .sliders .slider2 .text .span1:hover, #miss-slide .sliders .slider3 .text .span1:hover, #miss-slide .sliders .slider4 .text .span1:hover, #miss-slide .sliders .slider5 .text .span1:hover, #miss-slide .sliders .slider6 .text .span1:hover, #miss-slide .sliders .slider7 .text .span1:hover, #miss-slide .sliders .slider8 .text .span1:hover {
+          color: #686868; }
+      #miss-slide .sliders .slider1 .text .span2, #miss-slide .sliders .slider2 .text .span2, #miss-slide .sliders .slider3 .text .span2, #miss-slide .sliders .slider4 .text .span2, #miss-slide .sliders .slider5 .text .span2, #miss-slide .sliders .slider6 .text .span2, #miss-slide .sliders .slider7 .text .span2, #miss-slide .sliders .slider8 .text .span2 {
+        font-family: 'Raleway', sans-serif;
+        color: #bc8d46;
+        font-size: 12px;
+        font-weight: 700; }
+        #miss-slide .sliders .slider1 .text .span2:hover, #miss-slide .sliders .slider2 .text .span2:hover, #miss-slide .sliders .slider3 .text .span2:hover, #miss-slide .sliders .slider4 .text .span2:hover, #miss-slide .sliders .slider5 .text .span2:hover, #miss-slide .sliders .slider6 .text .span2:hover, #miss-slide .sliders .slider7 .text .span2:hover, #miss-slide .sliders .slider8 .text .span2:hover {
+          color: #686868; }
+      #miss-slide .sliders .slider1 .text h1, #miss-slide .sliders .slider2 .text h1, #miss-slide .sliders .slider3 .text h1, #miss-slide .sliders .slider4 .text h1, #miss-slide .sliders .slider5 .text h1, #miss-slide .sliders .slider6 .text h1, #miss-slide .sliders .slider7 .text h1, #miss-slide .sliders .slider8 .text h1 {
+        font-size: 20px;
+        line-height: 29px;
+        margin-bottom: 15px;
+        margin-top: 0;
+        font-family: 'Raleway', sans-serif;
+        font-weight: 700; }
+      #miss-slide .sliders .slider1 .text p, #miss-slide .sliders .slider2 .text p, #miss-slide .sliders .slider3 .text p, #miss-slide .sliders .slider4 .text p, #miss-slide .sliders .slider5 .text p, #miss-slide .sliders .slider6 .text p, #miss-slide .sliders .slider7 .text p, #miss-slide .sliders .slider8 .text p {
+        line-height: 23px;
+        font-weight: normal;
+        font-style: normal;
+        color: #9b9b9b;
+        font-size: 14px;
+        font-family: 'Raleway', sans-serif;
+        font-weight: 700; }
+      #miss-slide .sliders .slider1 .text .son, #miss-slide .sliders .slider2 .text .son, #miss-slide .sliders .slider3 .text .son, #miss-slide .sliders .slider4 .text .son, #miss-slide .sliders .slider5 .text .son, #miss-slide .sliders .slider6 .text .son, #miss-slide .sliders .slider7 .text .son, #miss-slide .sliders .slider8 .text .son {
+        font-family: 'Raleway', sans-serif;
+        color: #686868;
+        font-size: 12px;
+        font-weight: 700; }
+
+#finish {
+  background-color: #222;
+  margin-top: 190px;
+  padding-top: 110px;
+  position: relative; }
+  #finish .address, #finish .contact {
+    text-align: center; }
+    #finish .address h1, #finish .contact h1 {
+      font-family: 'Kaushan Script', cursive;
+      font-size: 24px;
+      line-height: 29px;
+      margin-bottom: 18px;
+      color: #fff; }
+    #finish .address p, #finish .contact p {
+      font-family: 'Raleway', sans-serif;
+      color: #9b9b9b; }
+    #finish .address a, #finish .contact a {
+      font-family: 'Raleway', sans-serif;
+      color: #bc8d46;
+      text-decoration: none;
+      font-weight: 700;
+      transition: 0.4s; }
+      #finish .address a:hover, #finish .contact a:hover {
+        color: #fff; }
+  #finish .sosial ul {
+    margin-left: 369px;
+    margin-top: 44px;
+    margin-bottom: 44px; }
+    #finish .sosial ul li {
+      display: inline-block;
+      margin-left: 31px;
+      background-color: #1b1b1b;
+      border-radius: 100%;
+      padding: 11px 14px;
+      font-size: 16px;
+      transition: 0.4s; }
+      #finish .sosial ul li:hover {
+        background-color: #bc8d46; }
+      #finish .sosial ul li i {
+        color: #fff;
+        cursor: pointer; }
+  #finish .reservation {
+    text-align: center; }
+    #finish .reservation .reserv {
+      padding: 73px 0px;
+      background-color: #1b1b1b;
+      position: absolute;
+      top: -68px;
+      left: 551px; }
+      #finish .reservation .reserv .reservbot {
+        position: absolute;
+        top: -19px;
+        left: 158px; }
+      #finish .reservation .reserv .reservtop {
+        position: absolute;
+        left: 158px;
+        top: 314px; }
+      #finish .reservation .reserv h1 {
+        text-align: center;
+        font-family: 'Kaushan Script', cursive;
+        font-size: 24px;
+        line-height: 29px;
+        margin-bottom: 18px;
+        color: #fff;
+        margin-top: -47px; }
+      #finish .reservation .reserv .imgline {
+        width: 404px; }
+        #finish .reservation .reserv .imgline img {
+          width: 100%; }
+      #finish .reservation .reserv p {
+        font-family: 'Raleway', sans-serif;
+        color: #9b9b9b; }
+        #finish .reservation .reserv p .left {
+          text-align: left; }
+        #finish .reservation .reserv p .right {
+          text-align: right; }
+      #finish .reservation .reserv a {
+        text-align: center;
+        background-color: #1b1b1b;
+        font-family: 'Raleway', sans-serif;
+        color: #bc8d46;
+        text-decoration: none;
+        font-weight: 700;
+        transition: 0.4s;
+        border: 1px solid #bc8d46;
+        padding: 12px 73px;
+        font-size: 12px; }
+        #finish .reservation .reserv a:hover {
+          background-color: #bc8d46;
+          color: #fff; }
+  #finish .baybay {
+    background-color: #1b1b1b;
+    height: 100px; }
+    #finish .baybay .bay {
+      text-align: center;
+      margin-top: 30px; }
+      #finish .baybay .bay .baytop {
+        position: absolute;
+        top: -19px;
+        left: 523px; }
+      #finish .baybay .bay span {
+        color: #9b9b9b;
+        font-size: 13px; }
+      #finish .baybay .bay a {
+        color: #bc8d46;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 14px; }
+        #finish .baybay .bay a:hover {
+          color: #b45e24; }
+
+/*# sourceMappingURL=home.css.map */
