@@ -132,13 +132,15 @@ header{
                         color: #bc8d46;
                     }
                 }
-            }             
+            } 
+            
+                        
         }
     }
 }
 .back-color{
     background-color: #fff;
-    z-index: 20;
+    z-index: 14;
     .imggosder{
         margin-top: -64px;
         margin-bottom: 25px;
@@ -191,7 +193,7 @@ header{
                         left: 10px;
                         opacity: 1;
                         transition: 0.4s;
-                        z-index: 999;
+                        z-index: 99;
                     }
                     
                  }
@@ -1094,6 +1096,7 @@ header{
         position: fixed;
         top: 0;
         left: 0;
+        z-index: 101;
     }
     .paellasclick, .paellasclick2, .paellasclick3, .paellasclick4{
         position: absolute;
@@ -1152,7 +1155,8 @@ header{
         display: block;
         position: fixed;
         top: 0;
-        left: 0;       
+        left: 0;   
+        z-index: 100;    
     }
     .breastsclick, .breastsclick2, .breastsclick3, .breastsclick4{
         position: absolute;
@@ -1211,7 +1215,8 @@ header{
         display: block;
         position: fixed;
         top: 0;
-        left: 0;       
+        left: 0; 
+        z-index: 100;      
     }
     .seasclick, .seasclick2, .seasclick3, .seasclick4{
         position: absolute;
@@ -1270,7 +1275,8 @@ header{
         display: block;
         position: fixed;
         top: 0;
-        left: 0;        
+        left: 0;  
+        z-index: 100;      
     }
     .paprikasclick, .paprikasclick2, .paprikasclick3, .paprikasclick4{
         position: absolute;
@@ -1330,6 +1336,7 @@ header{
         position: fixed;
         top: 0;
         left: 0;    
+        z-index: 100;
     }
     .steaksclick, .steaksclick2, .steaksclick3, .steaksclick4{
         position: absolute;
@@ -1389,6 +1396,7 @@ header{
         position: fixed;
         top: 0;
         left: 0;    
+        z-index: 100;
     }
     
     .meal1 , .meal2, .meal3, .meal4{
