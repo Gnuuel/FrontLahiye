@@ -52,6 +52,8 @@ header {
     header .main .img {
       margin-top: 40px;
       margin-bottom: 25px; }
+    header .main .imggosder {
+      display: none; }
     header .main .menyu {
       margin-top: 23px;
       margin-bottom: 7px; }
@@ -103,6 +105,65 @@ header {
             font-size: 16px;
             transition: 0.4s; }
             header .main .menyu ul li i:hover {
+              color: #bc8d46; }
+  header .back-color {
+    background-color: #fff;
+    z-index: 20; }
+    header .back-color .imggosder {
+      margin-top: -64px;
+      margin-bottom: 25px;
+      display: block; }
+    header .back-color .menyu {
+      margin-top: 23px;
+      margin-bottom: 7px; }
+      header .back-color .menyu ul {
+        margin-left: 65px; }
+        header .back-color .menyu ul .ferqli {
+          margin-top: -5px;
+          padding: 4px;
+          border: solid 2px #000;
+          transition: 0.4s; }
+          header .back-color .menyu ul .ferqli:hover {
+            border: solid 2px #bc8d46;
+            background-color: #bc8d46; }
+        header .back-color .menyu ul .active {
+          position: relative; }
+          header .back-color .menyu ul .active .xet1 {
+            position: absolute;
+            width: 31px;
+            height: 2px;
+            background-color: #000;
+            display: inline-block;
+            top: 65px;
+            left: 10px; }
+        header .back-color .menyu ul li {
+          position: relative;
+          display: inline-block;
+          font-weight: 800;
+          font-size: 13px;
+          margin-left: 18px;
+          letter-spacing: 0.02em; }
+          header .back-color .menyu ul li:hover .xet1 {
+            position: absolute;
+            width: 31px;
+            height: 2px;
+            background-color: #fff;
+            display: inline-block;
+            top: 65px;
+            left: 10px;
+            opacity: 1;
+            transition: 0.4s;
+            z-index: 999; }
+          header .back-color .menyu ul li a {
+            text-decoration: none;
+            color: #000;
+            z-index: 999; }
+          header .back-color .menyu ul li i {
+            cursor: pointer;
+            color: #000;
+            font-size: 16px;
+            transition: 0.4s; }
+            header .back-color .menyu ul li i:hover {
               color: #bc8d46; }
   header .bartop {
     position: absolute;

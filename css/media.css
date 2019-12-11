@@ -8,6 +8,12 @@
     #hello .hello .food2 .bread .img {
       margin-left: 250px;
     }
+    #hello .hello .food3 .since .img{
+      margin-left: 48px;
+    }
+    #hello .hello .food3 .lists{
+      margin-left: -64px;
+    }
     #hello .hello .gallery ul{
       margin-left: 189px;
     }
@@ -130,6 +136,10 @@
   header .responsivemain{
     display: block;
 }
+   header .main .imggosder img{
+    display: none;
+   }
+
 header .responsivemain  img{
     margin-top: 30px;
     margin-bottom: 15px;
@@ -144,11 +154,11 @@ header .main{
     margin-left: 142px;
   }
   #hello .hello .food3 .since .img {
-    margin-left: -27px;
+    display: none;
   }
   
   #hello .hello .gallery ul {
-    margin-left: 122px;
+    margin-left: 82px;
   }
   #hello .hello .food4 .chef1 .img, #hello .hello .food4 .chef2 .img, #hello .hello .food4 .chef3 .img, #hello .hello .food4 .chef4 .img{
     width: 314px;
@@ -278,6 +288,9 @@ header .main{
         width: 806px;
     margin-left: -43px;
       }
+      #alleat .alls{
+        margin-left: 95px;
+      }
 }
 @media screen and (min-width:992px){
 
@@ -300,7 +313,9 @@ header .main{
       #hello .hello .food1 .new h3, #hello .hello .food1 .fresh h3, #hello .hello .food1 .creative h3{
         font-size: 23px;
       }
-      
+      #hello .hello .food2 .bread .img{
+        margin-left: 59px;
+      }
       #hello .hello .food3 .since .img {
         margin-left: -80px;
       }
@@ -418,7 +433,9 @@ header .main{
         .form-check-label{
           font-size: 14px;
         }
-          
+        #alleat .alls{
+          margin-left: 25px;
+        }
 }
 
 
@@ -445,6 +462,9 @@ header .main{
   }
   #hello .hello .food4 .chef1 .img, #hello .hello .food4 .chef2 .img, #hello .hello .food4 .chef3 .img, #hello .hello .food4 .chef4 .img{
     width: 502px;
+  }
+  #hello .hello .gallery ul li{
+    font-size: 24px;
   }
   #specials .vaxtlar{
     margin-left: 27px;
@@ -540,10 +560,13 @@ header .main{
   #creamy .author{
     margin-left: 8px;
   }
+  #alleat .alls li{
+    font-size: 19px;
+  }
 
 }
 
-@media screen and (max-width:479px){
+@media screen and (max-width:484px){
   #hello .hello .food1 .new .img, #hello .hello .food1 .fresh .img, #hello .hello .food1 .creative .img{
     margin-left: 50px;
   }
@@ -554,8 +577,15 @@ header .main{
     width: 79%;
     margin-left: 52px;
   }
+  #hello .hello .food2 .bread .img{
+    margin-left: 8px;
+  }
+  
   #hello .hello .gallery ul{
-    margin-left: 46px;
+    margin-left: 3px;
+  }
+  #hello .hello .gallery ul li{
+    font-size: 16px;
   }
   #specials .vaxtlar .vaxt{
     top:30px;
@@ -621,6 +651,9 @@ header .main{
     width: 395px;
     margin-left: -7px;
   }
+  #alleat .alls{
+    margin-left: 11px;
+  }
 }
 
 @media screen and (max-width:404px){
@@ -628,7 +661,7 @@ header .main{
     margin-left: 6px;
   }
   #hello .hello .gallery ul{
-    margin-left: -19px;
+    margin-left: 0px;
   }
   #hello .hello .food4 .chef1, #hello .hello .food4 .chef2, #hello .hello .food4 .chef3, #hello .hello .food4 .chef4{
     margin-left: -12px;
@@ -645,6 +678,9 @@ header .main{
   }
   #finish .sosial ul{
     margin-left: 0px;
+  }
+  #alleat .alls li{
+    font-size: 11px;
   }
 }
 @media screen and (max-width:414px){
@@ -680,6 +716,9 @@ header .main{
   }
   .form-check-label{
     font-size: 10px;
+  }
+  #hello .hello .food2 .bread .img{
+    margin-left: -26px;
   }
 }
 

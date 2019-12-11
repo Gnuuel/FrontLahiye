@@ -21,6 +21,15 @@ document.getElementsByClassName("hover1")[0].onmousemove=function(){
 }
 
 
+$(window).scroll(function(){
+    if($(window).scrollTop()>100){
+        $(".main").addClass("back-color")
+    }
+    else{
+        $(".main").removeClass("back-color");
+    }
+})
+
 
 
 // hello
@@ -35,7 +44,7 @@ secilen.addEventListener("click", function(){
 })
 })
 
-document.getElementsByClassName("about")[0].onclick=function(e){
+document.getElementsByClassName("about")[0].onclick=function(){
     document.querySelector(".food2").style.display="none"
     document.querySelector(".food3").style.display="none"
     document.querySelector(".food4").style.display="none"
@@ -295,6 +304,10 @@ document.getElementsByClassName("drinks")[0].onclick=function(){
     document.querySelector(".meal4").style.display="none"
     document.querySelector(".meal4").style.display="block"
 }
+
+ 
+
+
 
 
 //backgroundslider

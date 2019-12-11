@@ -52,6 +52,8 @@ header {
     header .main .img {
       margin-top: 40px;
       margin-bottom: 25px; }
+    header .main .imggosder {
+      display: none; }
     header .main .menyu {
       margin-top: 23px;
       margin-bottom: 7px; }
@@ -103,6 +105,65 @@ header {
             font-size: 16px;
             transition: 0.4s; }
             header .main .menyu ul li i:hover {
+              color: #bc8d46; }
+  header .back-color {
+    background-color: #fff;
+    z-index: 20; }
+    header .back-color .imggosder {
+      margin-top: -64px;
+      margin-bottom: 25px;
+      display: block; }
+    header .back-color .menyu {
+      margin-top: 23px;
+      margin-bottom: 7px; }
+      header .back-color .menyu ul {
+        margin-left: 65px; }
+        header .back-color .menyu ul .ferqli {
+          margin-top: -5px;
+          padding: 4px;
+          border: solid 2px #000;
+          transition: 0.4s; }
+          header .back-color .menyu ul .ferqli:hover {
+            border: solid 2px #bc8d46;
+            background-color: #bc8d46; }
+        header .back-color .menyu ul .active {
+          position: relative; }
+          header .back-color .menyu ul .active .xet1 {
+            position: absolute;
+            width: 31px;
+            height: 2px;
+            background-color: #000;
+            display: inline-block;
+            top: 65px;
+            left: 10px; }
+        header .back-color .menyu ul li {
+          position: relative;
+          display: inline-block;
+          font-weight: 800;
+          font-size: 13px;
+          margin-left: 18px;
+          letter-spacing: 0.02em; }
+          header .back-color .menyu ul li:hover .xet1 {
+            position: absolute;
+            width: 31px;
+            height: 2px;
+            background-color: #fff;
+            display: inline-block;
+            top: 65px;
+            left: 10px;
+            opacity: 1;
+            transition: 0.4s;
+            z-index: 999; }
+          header .back-color .menyu ul li a {
+            text-decoration: none;
+            color: #000;
+            z-index: 999; }
+          header .back-color .menyu ul li i {
+            cursor: pointer;
+            color: #000;
+            font-size: 16px;
+            transition: 0.4s; }
+            header .back-color .menyu ul li i:hover {
               color: #bc8d46; }
   header .bartop {
     position: absolute;
@@ -412,13 +473,13 @@ header {
 
 #alleat {
   margin-top: 100px; }
-  #alleat .all {
+  #alleat .alls {
     margin-left: 270px; }
-    #alleat .all .activeall {
+    #alleat .alls .activeall {
       position: relative; }
-      #alleat .all .activeall p {
+      #alleat .alls .activeall p {
         color: rgba(188, 141, 70, 0.87); }
-      #alleat .all .activeall .xet1 {
+      #alleat .alls .activeall .xet1 {
         position: absolute;
         width: 78px;
         height: 1.5px;
@@ -426,14 +487,14 @@ header {
         display: inline-block;
         top: 55px;
         left: -9px; }
-    #alleat .all li {
+    #alleat .alls li {
       font-family: 'Kaushan Script', cursive;
       font-size: 24px;
       display: inline-block;
       list-style: none;
       margin-left: 45px;
       position: relative; }
-      #alleat .all li:hover .xet1 {
+      #alleat .alls li:hover .xet1 {
         position: absolute;
         width: 78px;
         height: 1.5px;
@@ -444,25 +505,25 @@ header {
         opacity: 1;
         transition: 0.4s;
         z-index: 999; }
-      #alleat .all li p {
+      #alleat .alls li p {
         color: #000;
         cursor: pointer; }
-        #alleat .all li p:hover {
+        #alleat .alls li p:hover {
           color: rgba(188, 141, 70, 0.87); }
 
-#allmenu .imgallmenu {
+#allmenu .allmenu1 .imgallmenu, #allmenu .allmenu2 .imgallmenu, #allmenu .allmenu3 .imgallmenu, #allmenu .allmenu4 .imgallmenu {
   position: relative;
   width: 271px;
   height: 271px;
   margin-top: 15px; }
-  #allmenu .imgallmenu:hover .opaciallmenu {
+  #allmenu .allmenu1 .imgallmenu:hover .opaciallmenu, #allmenu .allmenu2 .imgallmenu:hover .opaciallmenu, #allmenu .allmenu3 .imgallmenu:hover .opaciallmenu, #allmenu .allmenu4 .imgallmenu:hover .opaciallmenu {
     opacity: 97%; }
-  #allmenu .imgallmenu:hover i {
+  #allmenu .allmenu1 .imgallmenu:hover i, #allmenu .allmenu2 .imgallmenu:hover i, #allmenu .allmenu3 .imgallmenu:hover i, #allmenu .allmenu4 .imgallmenu:hover i {
     opacity: 1; }
-  #allmenu .imgallmenu img {
+  #allmenu .allmenu1 .imgallmenu img, #allmenu .allmenu2 .imgallmenu img, #allmenu .allmenu3 .imgallmenu img, #allmenu .allmenu4 .imgallmenu img {
     width: 100%;
     height: 100%; }
-  #allmenu .imgallmenu .opaciallmenu {
+  #allmenu .allmenu1 .imgallmenu .opaciallmenu, #allmenu .allmenu2 .imgallmenu .opaciallmenu, #allmenu .allmenu3 .imgallmenu .opaciallmenu, #allmenu .allmenu4 .imgallmenu .opaciallmenu {
     position: absolute;
     width: 219px;
     height: 219px;
@@ -473,7 +534,7 @@ header {
     left: 27px;
     transition: 0.4s;
     cursor: pointer; }
-  #allmenu .imgallmenu i {
+  #allmenu .allmenu1 .imgallmenu i, #allmenu .allmenu2 .imgallmenu i, #allmenu .allmenu3 .imgallmenu i, #allmenu .allmenu4 .imgallmenu i {
     position: absolute;
     color: #fff;
     top: 123px;
@@ -483,6 +544,12 @@ header {
     opacity: 0;
     transition: 0.4s;
     cursor: pointer; }
+#allmenu .allmenu2 {
+  display: none; }
+#allmenu .allmenu3 {
+  display: none; }
+#allmenu .allmenu4 {
+  display: none; }
 
 .loada {
   margin-top: 157px;

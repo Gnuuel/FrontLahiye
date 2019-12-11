@@ -62,6 +62,9 @@ header{
         margin-top: 40px;
         margin-bottom: 25px;
     }
+    .imggosder{
+        display: none;
+    }
     .menyu{
     
         margin-top: 23px;
@@ -123,6 +126,85 @@ header{
                 i{
                     cursor: pointer;
                     color: #fff;
+                    font-size: 16px;
+                    transition: 0.4s;
+                    &:hover{
+                        color: #bc8d46;
+                    }
+                }
+            }             
+        }
+    }
+}
+.back-color{
+    background-color: #fff;
+    z-index: 20;
+    .imggosder{
+        margin-top: -64px;
+        margin-bottom: 25px;
+        display: block;
+    }
+    .menyu{
+    
+        margin-top: 23px;
+        margin-bottom: 7px;
+        ul{ 
+            margin-left: 65px;
+            .ferqli{
+                margin-top: -5px;
+                padding: 4px;
+                border: solid 2px #000;
+                transition: 0.4s;
+                &:hover{
+                    border: solid 2px #bc8d46;
+                    background-color: #bc8d46;
+                }
+            }
+            .active{
+                position: relative;
+                .xet1{
+                    position: absolute;
+                    width: 31px;
+                    height: 2px;
+                    background-color: #000;
+                    display: inline-block;
+                    top: 65px;
+                    left: 10px;
+                }
+            }
+           
+            li{
+                position: relative;
+                display: inline-block;
+                font-weight: 800;
+                font-size: 13px;
+                margin-left: 18px;
+                letter-spacing: 0.02em;
+                 &:hover{
+                    .xet1{
+                        position: absolute;
+                        width: 31px;
+                        height: 2px;
+                        background-color: #fff;
+                        display: inline-block;
+                        top: 65px;
+                        left: 10px;
+                        opacity: 1;
+                        transition: 0.4s;
+                        z-index: 999;
+                    }
+                    
+                 }
+                 
+                a{
+                    text-decoration: none;
+                    color: #000;
+                   z-index: 999;
+               
+                }
+                i{
+                    cursor: pointer;
+                    color: #000;
                     font-size: 16px;
                     transition: 0.4s;
                     &:hover{
